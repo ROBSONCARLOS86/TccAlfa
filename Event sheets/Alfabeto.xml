@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Alfabeto</name>
+    <events>
+        <variable constant="0" name="pontos" sid="889745407222131" static="0" type="number">0</variable>
+        <variable constant="0" name="vrx2" sid="822582194150015" static="0" type="number">0</variable>
+        <variable constant="0" name="vrx1" sid="581707491885198" static="0" type="number">0</variable>
+        <variable constant="0" name="vr" sid="843328403375215" static="0" type="number">0</variable>
+        <variable constant="0" name="vperguntaalf" sid="540345439843082" static="0" type="number">0</variable>
+        <event-block sid="564313648295705">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="583328014534394" type="System" />
+            </conditions>
+            <actions>
+                <action id="2" name="Set at X" sid="240461734485085" type="array_alfabeto">
+                    <param id="0" name="X">0</param>
+                    <param id="1" name="Value">&quot;A&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="381584504632726" type="array_alfabeto">
+                    <param id="0" name="X">1</param>
+                    <param id="1" name="Value">&quot;B&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="351081374190802" type="array_alfabeto">
+                    <param id="0" name="X">2</param>
+                    <param id="1" name="Value">&quot;C&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="246863324121888" type="array_alfabeto">
+                    <param id="0" name="X">3</param>
+                    <param id="1" name="Value">&quot;D&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="993961991562691" type="array_alfabeto">
+                    <param id="0" name="X">4</param>
+                    <param id="1" name="Value">&quot;E&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="661873976616807" type="array_alfabeto">
+                    <param id="0" name="X">5</param>
+                    <param id="1" name="Value">&quot;F&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="352874048693479" type="array_alfabeto">
+                    <param id="0" name="X">6</param>
+                    <param id="1" name="Value">&quot;G&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="325034761840617" type="array_alfabeto">
+                    <param id="0" name="X">7</param>
+                    <param id="1" name="Value">&quot;H&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="396978038762100" type="array_alfabeto">
+                    <param id="0" name="X">8</param>
+                    <param id="1" name="Value">&quot;I&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="375660080714035" type="array_alfabeto">
+                    <param id="0" name="X">9</param>
+                    <param id="1" name="Value">&quot;J&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="826493751218984" type="array_alfabeto">
+                    <param id="0" name="X">10</param>
+                    <param id="1" name="Value">&quot;K&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="860884520434647" type="array_alfabeto">
+                    <param id="0" name="X">11</param>
+                    <param id="1" name="Value">&quot;L&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="264544180058951" type="array_alfabeto">
+                    <param id="0" name="X">12</param>
+                    <param id="1" name="Value">&quot;M&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="368036429255147" type="array_alfabeto">
+                    <param id="0" name="X">13</param>
+                    <param id="1" name="Value">&quot;O&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="766264760483459" type="array_alfabeto">
+                    <param id="0" name="X">14</param>
+                    <param id="1" name="Value">&quot;P&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="159082025175881" type="array_alfabeto">
+                    <param id="0" name="X">15</param>
+                    <param id="1" name="Value">&quot;Q&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="600002138093979" type="array_alfabeto">
+                    <param id="0" name="X">16</param>
+                    <param id="1" name="Value">&quot;R&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="242816466949563" type="array_alfabeto">
+                    <param id="0" name="X">17</param>
+                    <param id="1" name="Value">&quot;S&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="870432845288538" type="array_alfabeto">
+                    <param id="0" name="X">18</param>
+                    <param id="1" name="Value">&quot;T&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="548517576207126" type="array_alfabeto">
+                    <param id="0" name="X">19</param>
+                    <param id="1" name="Value">&quot;U&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="523434555867005" type="array_alfabeto">
+                    <param id="0" name="X">20</param>
+                    <param id="1" name="Value">&quot;V&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="423093203737451" type="array_alfabeto">
+                    <param id="0" name="X">21</param>
+                    <param id="1" name="Value">&quot;W&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="291471812219979" type="array_alfabeto">
+                    <param id="0" name="X">22</param>
+                    <param id="1" name="Value">&quot;X&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="180913547301821" type="array_alfabeto">
+                    <param id="0" name="X">22</param>
+                    <param id="1" name="Value">&quot;Y&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="685682240097579" type="array_alfabeto">
+                    <param id="0" name="X">23</param>
+                    <param id="1" name="Value">&quot;Z&quot;</param>
+                </action>
+                <action id="0" name="Call function" sid="901424242313694" type="Function">
+                    <param id="0" name="Name">&quot;sorteio&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="115036550360800">
+            <conditions>
+                <condition id="0" name="On function" sid="155408528644250" type="Function">
+                    <param id="0" name="Name">&quot;start&quot;</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="569159605242914">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="395212604372080" type="System">
+                            <param id="0" name="Variable">pontos</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">9</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="644812845659539" type="sf4">
+                            <param id="0" name="Text">array_alfabeto.At(vrx1)</param>
+                        </action>
+                        <action id="0" name="Set text" sid="475558972216245" type="sf3">
+                            <param id="0" name="Text">array_alfabeto.At(vperguntaalf)</param>
+                        </action>
+                        <action id="0" name="Set text" sid="628701377113080" type="sf2">
+                            <param id="0" name="Text">array_alfabeto.At(vrx2)</param>
+                        </action>
+                        <action id="7" name="Play (by name)" sid="994356931682154" type="Audio">
+                            <param id="0" name="Folder">0</param>
+                            <param id="1" name="Audio file name">array_alfabeto.At(vperguntaalf)</param>
+                            <param id="3" name="Loop">0</param>
+                            <param id="4" name="Volume">0</param>
+                            <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="380288923302540">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="326220166937990" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="258962180885164" type="System">
+                            <param id="0" name="Layout">Alfabeto2</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="434520481959781">
+            <conditions>
+                <condition id="0" name="On function" sid="286020558173731" type="Function">
+                    <param id="0" name="Name">&quot;sorteio&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="885003205380501" type="System">
+                    <param id="0" name="Variable">vrx1</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="280751594407934" type="System">
+                    <param id="0" name="Variable">vrx2</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="693422790796726" type="System">
+                    <param id="0" name="Variable">vperguntaalf</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="392351599308428" type="System">
+                    <param id="0" name="Variable">vrx1</param>
+                    <param id="1" name="Value">round(random(0,23))</param>
+                </action>
+                <action id="-9" name="Set value" sid="786312673571502" type="System">
+                    <param id="0" name="Variable">vrx2</param>
+                    <param id="1" name="Value">round(random(0,23))</param>
+                </action>
+                <action id="-9" name="Set value" sid="405592776048178" type="System">
+                    <param id="0" name="Variable">vperguntaalf</param>
+                    <param id="1" name="Value">choose(vrx1,vrx2)</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="997773414282663">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="194289084220999" type="System">
+                            <param id="0" name="First value">vrx2</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">vrx1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Wait" sid="709956990356723" type="System">
+                            <param id="0" name="Seconds">1.0</param>
+                        </action>
+                        <action id="0" name="Call function" sid="333782070558903" type="Function">
+                            <param id="0" name="Name">&quot;sorteio&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="401695601685773">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="442941552203400" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Call function" sid="400824078100485" type="Function">
+                            <param id="0" name="Name">&quot;start&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="343871469814972">
+            <conditions>
+                <condition id="0" name="On function" sid="321362216755053" type="Function">
+                    <param id="0" name="Name">&quot;verifica&quot;</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="125793930082625">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="473910589349962" type="System">
+                            <param id="0" name="First value">vr</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">vperguntaalf</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="627092230801942" type="btnlike">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="299276563627928" type="System">
+                            <param id="0" name="Seconds">1.0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="484347036743497" type="btnlike">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="282731716438755" type="System">
+                            <param id="0" name="Variable">pontos</param>
+                            <param id="1" name="Value">pontos+1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="938510415056409" type="System">
+                            <param id="0" name="Seconds">1.0</param>
+                        </action>
+                        <action id="0" name="Call function" sid="107555140592857" type="Function">
+                            <param id="0" name="Name">&quot;sorteio&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="331736537277745">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="839051263317381" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="457496978825072" type="btndislike">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="912266752878851" type="System">
+                            <param id="0" name="Seconds">1.0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="659084509997922" type="btndislike">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="340640987585640">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="300589850992963" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">sf4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="225490846349873" type="System">
+                    <param id="0" name="Variable">vr</param>
+                    <param id="1" name="Value">vrx1</param>
+                </action>
+                <action id="0" name="Call function" sid="349319477663705" type="Function">
+                    <param id="0" name="Name">&quot;verifica&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="629016156082556">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="265080225655790" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">sf2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="232320968542857" type="System">
+                    <param id="0" name="Variable">vr</param>
+                    <param id="1" name="Value">vrx2</param>
+                </action>
+                <action id="0" name="Call function" sid="243461774240752" type="Function">
+                    <param id="0" name="Name">&quot;verifica&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="823688178862554">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="112590521726914" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">sonAlfa</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="111606683996126">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="700336784389564" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">sonAlfa</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="7" name="Play (by name)" sid="797430474319003" type="Audio">
+                    <param id="0" name="Folder">0</param>
+                    <param id="1" name="Audio file name">array_alfabeto.At(vperguntaalf)</param>
+                    <param id="3" name="Loop">0</param>
+                    <param id="4" name="Volume">0</param>
+                    <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="199393328202885">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="780013454751979" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="200726535346375" type="Pontos">
+                    <param id="0" name="Text">pontos</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="279781942588660">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="275331777824591" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">SetaVoltarAlfabeto</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="799430192663061" type="System">
+                    <param id="0" name="Layout">Menu</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

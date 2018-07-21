@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Jogo daBexiga</name>
+    <events>
+        <variable constant="0" name="pontosBexiga" sid="182010228550063" static="0" type="number">0</variable>
+        <variable constant="0" name="acerto" sid="750418428260532" static="0" type="number">0</variable>
+        <variable constant="0" name="pergunta" sid="479601209985600" static="0" type="text"></variable>
+        <variable constant="0" name="b4" sid="637522537135067" static="0" type="text"></variable>
+        <variable constant="0" name="b3" sid="659412940492447" static="0" type="number">0</variable>
+        <variable constant="0" name="b2" sid="578251231922064" static="0" type="number">0</variable>
+        <variable constant="0" name="b1" sid="908018070301347" static="0" type="number">0</variable>
+        <event-block sid="985562171060320">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="928091015595638" type="System" />
+            </conditions>
+            <actions>
+                <action id="2" name="Set at X" sid="939864660839082" type="array_bexiga">
+                    <param id="0" name="X">0</param>
+                    <param id="1" name="Value">&quot;a&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="712030037457122" type="array_bexiga">
+                    <param id="0" name="X">1</param>
+                    <param id="1" name="Value">&quot;b&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="129035161954965" type="array_bexiga">
+                    <param id="0" name="X">2</param>
+                    <param id="1" name="Value">&quot;c&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="982975670792460" type="array_bexiga">
+                    <param id="0" name="X">3</param>
+                    <param id="1" name="Value">&quot;d&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="767379661314177" type="array_bexiga">
+                    <param id="0" name="X">4</param>
+                    <param id="1" name="Value">&quot;e&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="132557974306201" type="array_bexiga">
+                    <param id="0" name="X">5</param>
+                    <param id="1" name="Value">&quot;f&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="352664095770195" type="array_bexiga">
+                    <param id="0" name="X">6</param>
+                    <param id="1" name="Value">&quot;g&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="603589213639392" type="array_bexiga">
+                    <param id="0" name="X">7</param>
+                    <param id="1" name="Value">&quot;h&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="517188410061042" type="array_bexiga">
+                    <param id="0" name="X">8</param>
+                    <param id="1" name="Value">&quot;i&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="876124170360899" type="array_bexiga">
+                    <param id="0" name="X">9</param>
+                    <param id="1" name="Value">&quot;j&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="209035792418281" type="array_bexiga">
+                    <param id="0" name="X">10</param>
+                    <param id="1" name="Value">&quot;k&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="907870854776416" type="array_bexiga">
+                    <param id="0" name="X">11</param>
+                    <param id="1" name="Value">&quot;l&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="902850842256829" type="array_bexiga">
+                    <param id="0" name="X">12</param>
+                    <param id="1" name="Value">&quot;m&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="664676264388058" type="array_bexiga">
+                    <param id="0" name="X">13</param>
+                    <param id="1" name="Value">&quot;n&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="621303093424199" type="array_bexiga">
+                    <param id="0" name="X">14</param>
+                    <param id="1" name="Value">&quot;o&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="589126744723236" type="array_bexiga">
+                    <param id="0" name="X">15</param>
+                    <param id="1" name="Value">&quot;p&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="395633233853180" type="array_bexiga">
+                    <param id="0" name="X">16</param>
+                    <param id="1" name="Value">&quot;q&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="342843736952601" type="array_bexiga">
+                    <param id="0" name="X">17</param>
+                    <param id="1" name="Value">&quot;r&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="792970236717237" type="array_bexiga">
+                    <param id="0" name="X">18</param>
+                    <param id="1" name="Value">&quot;s&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="312232352165684" type="array_bexiga">
+                    <param id="0" name="X">19</param>
+                    <param id="1" name="Value">&quot;t&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="605514156025499" type="array_bexiga">
+                    <param id="0" name="X">20</param>
+                    <param id="1" name="Value">&quot;u&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="874795021984075" type="array_bexiga">
+                    <param id="0" name="X">21</param>
+                    <param id="1" name="Value">&quot;v&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="955018573121221" type="array_bexiga">
+                    <param id="0" name="X">22</param>
+                    <param id="1" name="Value">&quot;x&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="576813353449886" type="array_bexiga">
+                    <param id="0" name="X">23</param>
+                    <param id="1" name="Value">&quot;w&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="208662471838407" type="array_bexiga">
+                    <param id="0" name="X">24</param>
+                    <param id="1" name="Value">&quot;y&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="162553860070066" type="array_bexiga">
+                    <param id="0" name="X">25</param>
+                    <param id="1" name="Value">&quot;z&quot;</param>
+                </action>
+                <action id="-9" name="Set value" sid="156680479848701" type="System">
+                    <param id="0" name="Variable">pergunta</param>
+                    <param id="1" name="Value">array_bexiga.At(round(random(0,25)))</param>
+                </action>
+                <action id="7" name="Play (by name)" sid="200096549099097" type="Audio">
+                    <param id="0" name="Folder">0</param>
+                    <param id="1" name="Audio file name">pergunta</param>
+                    <param id="3" name="Loop">0</param>
+                    <param id="4" name="Volume">0</param>
+                    <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="906833399959371" type="letraPergunta">
+                    <param id="0" name="Text">pergunta</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="491274381265940">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="240557593579628" type="System">
+                    <param id="0" name="Variable">acerto</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="727272331923451" type="System">
+                    <param id="0" name="Variable">pergunta</param>
+                    <param id="1" name="Value">array_bexiga.At(round(random(0,25)))</param>
+                </action>
+                <action id="7" name="Play (by name)" sid="287328837643650" type="Audio">
+                    <param id="0" name="Folder">0</param>
+                    <param id="1" name="Audio file name">pergunta</param>
+                    <param id="3" name="Loop">0</param>
+                    <param id="4" name="Volume">0</param>
+                    <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-9" name="Set value" sid="618304658139345" type="System">
+                    <param id="0" name="Variable">acerto</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="0" name="Set text" sid="809855118002867" type="letraPergunta">
+                    <param id="0" name="Text">pergunta</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="296820407726780">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="747471361480757" type="System">
+                    <param id="0" name="Interval (seconds)">2.5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Physics" id="12" name="Set world gravity" sid="314458069626554" type="bexiga1">
+                    <param id="0" name="Gravity">1</param>
+                </action>
+                <action id="-3" name="Create object" sid="596827005074213" type="System">
+                    <param id="0" name="Object to create">bexiga1</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">50</param>
+                    <param id="3" name="Y">-280</param>
+                </action>
+                <action id="-3" name="Create object" sid="129040391904407" type="System">
+                    <param id="0" name="Object to create">bexiga2</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">200</param>
+                    <param id="3" name="Y">-280</param>
+                </action>
+                <action id="-3" name="Create object" sid="408402610738282" type="System">
+                    <param id="0" name="Object to create">bexiga3</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">400</param>
+                    <param id="3" name="Y">-280</param>
+                </action>
+                <action id="-9" name="Set value" sid="674335136460414" type="System">
+                    <param id="0" name="Variable">b1</param>
+                    <param id="1" name="Value">round(random(0,25))</param>
+                </action>
+                <action id="-9" name="Set value" sid="821889148608884" type="System">
+                    <param id="0" name="Variable">b2</param>
+                    <param id="1" name="Value">round(random(0,25))</param>
+                </action>
+                <action id="-9" name="Set value" sid="239264960335208" type="System">
+                    <param id="0" name="Variable">b3</param>
+                    <param id="1" name="Value">round(random(0,25))</param>
+                </action>
+                <action id="0" name="Set text" sid="491493430568962" type="bexiga1">
+                    <param id="0" name="Text">array_bexiga.At(b1)</param>
+                </action>
+                <action id="0" name="Set text" sid="767519351374433" type="bexiga2">
+                    <param id="0" name="Text">array_bexiga.At(b2)</param>
+                </action>
+                <action id="0" name="Set text" sid="547330634557620" type="bexiga3">
+                    <param id="0" name="Text">array_bexiga.At(b3)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="876949141495600">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="771873464550092" type="System">
+                    <param id="0" name="Interval (seconds)">4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="977937273556651" type="System">
+                    <param id="0" name="Object to create">bexiga4</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">round(random(100,600))</param>
+                    <param id="3" name="Y">-280</param>
+                </action>
+                <action id="0" name="Set text" sid="117954619548139" type="bexiga4">
+                    <param id="0" name="Text">pergunta</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="601117213925937">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="813767866631285" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">bexiga1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="640027538043262" type="bexiga1" />
+            </actions>
+            <sub-events>
+                <event-block sid="529390121071098">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="590988035825751" type="System">
+                            <param id="0" name="First value">bexiga1.Text</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">pergunta</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="932263980064022" type="System">
+                            <param id="0" name="Variable">acerto</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="201516242083901" type="System">
+                            <param id="0" name="Variable">pontosBexiga</param>
+                            <param id="1" name="Value">pontosBexiga+1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="808498981797897">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="335065532609692" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">bexiga2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="827546647842497" type="bexiga2" />
+            </actions>
+            <sub-events>
+                <event-block sid="416327728234207">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="960170064768381" type="System">
+                            <param id="0" name="First value">bexiga2.Text</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">pergunta</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="328615765282175" type="System">
+                            <param id="0" name="Variable">acerto</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="283801631993561" type="System">
+                            <param id="0" name="Variable">pontosBexiga</param>
+                            <param id="1" name="Value">pontosBexiga+1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="445887130117125">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="539875125415508" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">bexiga3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="635387720186853" type="bexiga3" />
+            </actions>
+            <sub-events>
+                <event-block sid="473957710634306">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="632282942555955" type="System">
+                            <param id="0" name="First value">bexiga3.Text</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">pergunta</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="981492980305411" type="System">
+                            <param id="0" name="Variable">acerto</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="813587751420627" type="System">
+                            <param id="0" name="Variable">pontosBexiga</param>
+                            <param id="1" name="Value">pontosBexiga+1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="578357407505669">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="393637387554551" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">bexiga4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="646694825913204" type="bexiga4" />
+            </actions>
+            <sub-events>
+                <event-block sid="469005256371494">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="680219867311086" type="System">
+                            <param id="0" name="First value">bexiga4.Text</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">pergunta</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="908564458276295" type="System">
+                            <param id="0" name="Variable">acerto</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="555619729409320" type="System">
+                            <param id="0" name="Variable">pontosBexiga</param>
+                            <param id="1" name="Value">pontosBexiga+1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="119423533217901">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="581848199967072" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">son</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="7" name="Play (by name)" sid="931768486918275" type="Audio">
+                    <param id="0" name="Folder">0</param>
+                    <param id="1" name="Audio file name">pergunta</param>
+                    <param id="3" name="Loop">0</param>
+                    <param id="4" name="Volume">0</param>
+                    <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="430627945518169">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="350566222325795" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="262084936859642" type="ponto">
+                    <param id="0" name="Text">pontosBexiga</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="683741697697081">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="297655947192723" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">SetaVoltarBexiga</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="315942655005734" type="System">
+                    <param id="0" name="Layout">Menu</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

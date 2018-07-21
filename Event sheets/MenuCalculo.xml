@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>MenuCalculo</name>
+    <events>
+        <event-block sid="872351721550814">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="337378745470773" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">MenuAdicao</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="307127655541443" type="System">
+                    <param id="0" name="Layout">Adicao</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="690412582231739">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="911874642791832" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">MenuSubtracao</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="779345422730439" type="System">
+                    <param id="0" name="Layout">Subtracao</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="709040267379517">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="833749630717140" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">MenuMultiplicacao</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="501898373204557" type="System">
+                    <param id="0" name="Layout">Multiplicacao</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="249933126833929">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="538935463453865" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">MenuDivisao</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="622412918010077" type="System">
+                    <param id="0" name="Layout">Divisao</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="447876824252230">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="722066653798430" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">SetaVoltar2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="546816811193524" type="System">
+                    <param id="0" name="Layout">Menu</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

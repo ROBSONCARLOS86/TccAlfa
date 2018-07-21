@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2uistate>
+    <!--This is a UI state file - its content describes the user interface settings when the project was last open.
+It is entirely optional and the project will load without it.  If you are placing the project under source control,
+you probably do not want to add any .uistate.xml files to the repository.-->
+    <configurations>
+        <active>
+            <configuration name="HTML5" />
+        </active>
+        <display name="HTML5" />
+    </configurations>
+    <open-tabs>
+        <layout order="1">splash</layout>
+        <event-sheet order="0">splash</event-sheet>
+        <event-sheet active="1" order="2">inicio</event-sheet>
+    </open-tabs>
+    <properties>
+        <property expanded="1" name="About" />
+        <property expanded="1" name="Project settings" />
+        <property expanded="0" name="Window Size" />
+        <property expanded="1" name="Configuration Settings" />
+    </properties>
+    <families-expanded root="1" />
+    <folders-expanded>
+        <folder expanded="0" path="object-folder/" />
+        <folder expanded="1" path="layout-folder/" />
+        <folder expanded="0" path="layout-folder/Alfabeto/" />
+        <folder expanded="0" path="layout-folder/Calculos/" />
+        <folder expanded="0" path="layout-folder/JogoBexiga/" />
+        <folder expanded="0" path="layout-folder/Menu/" />
+        <folder expanded="1" path="layout-folder/Jogo/" />
+        <folder expanded="1" path="event-folder/" />
+        <folder expanded="0" path="event-folder/Alfabeto/" />
+        <folder expanded="0" path="event-folder/Calculos/" />
+        <folder expanded="0" path="event-folder/JogoBexiga/" />
+        <folder expanded="1" path="event-folder/Jogo/" />
+        <folder expanded="1" path="event-folder/Menu/" />
+        <folder expanded="0" path="file-folder/" />
+        <folder expanded="0" path="sound-folder/" />
+        <folder expanded="1" path="music-folder/" />
+        <folder expanded="0" path="file-folder/Icons/" />
+        <folder expanded="1" path="animation-folder/sonAlfa/" />
+        <folder expanded="1" path="animation-folder/btndislike/" />
+        <folder expanded="1" path="animation-folder/btnlike/" />
+        <folder expanded="1" path="animation-folder/Sprite2/" />
+        <folder expanded="1" path="animation-folder/Sprite/" />
+        <folder expanded="1" path="animation-folder/Sprite3/" />
+        <folder expanded="1" path="animation-folder/son/" />
+        <folder expanded="1" path="animation-folder/Sprite6/" />
+        <folder expanded="1" path="animation-folder/SetaVoltar/" />
+        <folder expanded="1" path="animation-folder/SetaVoltar4/" />
+        <folder expanded="1" path="animation-folder/SetaVoltar6/" />
+        <folder expanded="1" path="animation-folder/SetaVoltar2/" />
+        <folder expanded="1" path="animation-folder/imgMenu4operacao/" />
+        <folder expanded="1" path="animation-folder/SetaVoltarBexiga/" />
+        <folder expanded="1" path="animation-folder/SetaVoltarAlfabeto/" />
+        <folder expanded="1" path="animation-folder/SetaVoltarAlfabeto2/" />
+        <folder expanded="1" path="animation-folder/logoAlfa/" />
+        <folder expanded="1" path="animation-folder/imgfundoSplash/" />
+        <folder expanded="1" path="animation-folder/BtnStart/" />
+        <folder expanded="1" path="animation-folder/imgFundoCoqueiro1/" />
+        <folder expanded="1" path="animation-folder/frame_Personagem/" />
+        <folder expanded="1" path="animation-folder/imgFundoCoqueiro2/" />
+        <folder expanded="1" path="animation-folder/Sprite10/" />
+        <folder expanded="1" path="animation-folder/Sprite12/" />
+        <folder expanded="1" path="animation-folder/Sprite11/" />
+        <folder expanded="1" path="animation-folder/doorClose/" />
+        <folder expanded="1" path="animation-folder/moeda/" />
+        <folder expanded="1" path="animation-folder/Sprite9/" />
+        <folder expanded="1" path="animation-folder/personagem/" />
+        <folder expanded="1" path="animation-folder/Sprite13/" />
+        <folder expanded="1" path="animation-folder/morte/" />
+        <folder expanded="1" path="animation-folder/btn_left/" />
+        <folder expanded="1" path="animation-folder/btn_up/" />
+        <folder expanded="1" path="animation-folder/btn_right/" />
+        <folder expanded="1" path="animation-folder/Sprite15/" />
+        <folder expanded="1" path="animation-folder/LevelComplete/" />
+        <folder expanded="1" path="animation-folder/prata/" />
+        <folder expanded="1" path="animation-folder/bronze/" />
+        <folder expanded="1" path="animation-folder/ouro/" />
+        <folder expanded="1" path="animation-folder/GameOver/" />
+        <folder expanded="1" path="animation-folder/restart/" />
+        <folder expanded="1" path="animation-folder/start/" />
+    </folders-expanded>
+</c2uistate>

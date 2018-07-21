@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>fase1</name>
+    <events>
+        <variable constant="0" name="moedasFinal" sid="568681083993541" static="0" type="number">0</variable>
+        <variable constant="0" name="moedasInicio" sid="306725908575785" static="0" type="number">0</variable>
+        <event-group description="" sid="352681425400596" title="Movimento">
+            <sub-events>
+                <event-block sid="345567097019584">
+                    <conditions>
+                        <condition behavior="Platform" id="7" name="On stopped" sid="414019956456304" type="personagem" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="432306547841836" type="frame_Personagem">
+                            <param id="0" name="Animation">&quot;default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="985179280327108">
+                    <conditions>
+                        <condition behavior="Platform" id="1" name="Compare speed" sid="744222694974635" type="personagem">
+                            <param id="0" name="Comparison">4</param>
+                            <param id="1" name="Speed">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="988003105875129" type="frame_Personagem">
+                            <param id="0" name="Animation">&quot;run&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="866104055239387">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="231857141457489" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="989289590111836" type="frame_Personagem">
+                            <param id="0" name="Animation">&quot;default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block any="1" sid="212149664322614">
+                    <conditions>
+                        <condition id="2" name="Key is down" sid="619869243524843" type="Keyboard">
+                            <param id="0" name="Key">39 (Right arrow)</param>
+                        </condition>
+                        <condition id="4" name="Is touching object" sid="149337182800132" type="Touch">
+                            <param id="0" name="Object">btn_right</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="490037133531779">
+                            <conditions>
+                                <condition id="2" inverted="1" name="Is playing" sid="991608272554046" type="frame_Personagem">
+                                    <param id="0" name="Animation">&quot;dead&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Platform" id="7" name="Simulate control" sid="651248305959804" type="personagem">
+                                    <param id="0" name="Control">1</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="779025478902224" type="frame_Personagem">
+                                    <param id="0" name="Animation">&quot;run&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="7" name="Set mirrored" sid="487832481019802" type="frame_Personagem">
+                                    <param id="0" name="State">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block any="1" sid="844038925163233">
+                    <conditions>
+                        <condition id="2" name="Key is down" sid="394702647837380" type="Keyboard">
+                            <param id="0" name="Key">37 (Left arrow)</param>
+                        </condition>
+                        <condition id="4" name="Is touching object" sid="264483123280048" type="Touch">
+                            <param id="0" name="Object">btn_left</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="604821350819331">
+                            <conditions>
+                                <condition id="2" inverted="1" name="Is playing" sid="790413769695426" type="frame_Personagem">
+                                    <param id="0" name="Animation">&quot;dead&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="776362229606852" type="frame_Personagem">
+                                    <param id="0" name="Animation">&quot;run&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action behavior="Platform" id="7" name="Simulate control" sid="471209628967625" type="personagem">
+                                    <param id="0" name="Control">0</param>
+                                </action>
+                                <action id="7" name="Set mirrored" sid="937396611478562" type="frame_Personagem">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block any="1" sid="564743950907509">
+                    <conditions>
+                        <condition id="2" name="Key is down" sid="734089779605066" type="Keyboard">
+                            <param id="0" name="Key">38 (Up arrow)</param>
+                        </condition>
+                        <condition id="4" name="Is touching object" sid="601714095588702" type="Touch">
+                            <param id="0" name="Object">btn_up</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="369775635861032">
+                            <conditions>
+                                <condition id="2" inverted="1" name="Is playing" sid="286151845175015" type="frame_Personagem">
+                                    <param id="0" name="Animation">&quot;dead&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Platform" id="7" name="Simulate control" sid="812554765530850" type="personagem">
+                                    <param id="0" name="Control">2</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="986186742743121" type="frame_Personagem">
+                                    <param id="0" name="Animation">&quot;jump&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="309087301459642" title="JOGO">
+            <sub-events>
+                <event-block sid="230375779172647">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="652006759410125" type="personagem">
+                            <param id="0" name="Object">morte</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                </event-block>
+                <event-block sid="755664627541984">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="738185877640793" type="System" />
+                    </conditions>
+                    <actions>
+                        <action behavior="Pin" id="0" name="Pin to object" sid="736357714360916" type="frame_Personagem">
+                            <param id="0" name="Pin to">personagem</param>
+                            <param id="1" name="Mode">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="319437656555614" type="System">
+                            <param id="0" name="Variable">moedasInicio</param>
+                            <param id="1" name="Value">moeda.Count</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="160206242606908" type="System">
+                            <param id="0" name="Variable">moedasFinal</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="603934534616066">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="396273517831467" type="personagem">
+                            <param id="0" name="Object">moeda</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="968053908378936" type="moeda" />
+                        <action id="-10" name="Add to" sid="802879764117681" type="System">
+                            <param id="0" name="Variable">moedasFinal</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="828511363093660">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="316169821359874" type="System">
+                            <param id="0" name="Variable">moedasFinal</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">moedasInicio</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="104765036181077" type="doorClose">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="501825344752028">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="709916122024407" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="440406986343283" type="doorClose">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="133782334210141">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="773216990650278" type="personagem">
+                            <param id="0" name="Object">doorClose</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="840616334716680">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="575695958181560" type="doorClose">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-25" name="Go to layout (by name)" sid="113361110512076" type="System">
+                                    <param id="0" name="Layout">&quot;fase2&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="802382782038964">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="680507553468263" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="674738519099693" type="System">
+                            <param id="0" name="Variable">level</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="336563032820065" title="GameOver">
+            <sub-events>
+                <event-block any="1" sid="325373280818187">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="676525279012824" type="frame_Personagem">
+                            <param id="0" name="Object">morte</param>
+                        </condition>
+                        <condition id="-3" name="On end of layout" sid="784424751637776" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Call function" sid="777763288378278" type="Function">
+                            <param id="0" name="Name">&quot;gameOver&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="379460106308270" title="Functions">
+            <sub-events>
+                <event-block sid="881700140679442">
+                    <conditions>
+                        <condition id="0" name="On function" sid="416491430439383" type="Function">
+                            <param id="0" name="Name">&quot;gameOver&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-25" name="Go to layout (by name)" sid="714723125522585" type="System">
+                            <param id="0" name="Layout">&quot;gameOver&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

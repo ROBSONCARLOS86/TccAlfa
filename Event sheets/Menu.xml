@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Menu</name>
+    <events>
+        <event-block sid="973941706201433">
+            <conditions>
+                <condition id="-25" name="On loader layout complete" sid="196878709865310" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="799279921091520" type="Audio">
+                    <param id="0" name="Audio file">8-Bit-Puzzler</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">-5</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="963266196289411">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="825804973065330" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">sfMenuAlfabeto</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="493104189273924" type="System">
+                    <param id="0" name="Layout">Alfabeto</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="942840556031953">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="231033768522956" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">imgMenu4operacao</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="217815201092183" type="System">
+                    <param id="0" name="Layout">MenuCalculo</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="919420959666284">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="591832991301434" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Menubexiga</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="488253691575389" type="System">
+                    <param id="0" name="Layout">Jogo daBexiga</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="999482568646376">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="445870789902649" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">frame_Personagem</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="652709435154477" type="System">
+                    <param id="0" name="Layout">inicio</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
