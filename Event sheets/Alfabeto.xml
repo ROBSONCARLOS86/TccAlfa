@@ -247,6 +247,14 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action id="-9" name="Set value" sid="687263177513886" type="System">
+                            <param id="0" name="Variable">PontosGerais</param>
+                            <param id="1" name="Value">PontosGerais+1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="282731716438755" type="System">
+                            <param id="0" name="Variable">pontos</param>
+                            <param id="1" name="Value">pontos+1</param>
+                        </action>
                         <action id="-15" name="Set visible" sid="627092230801942" type="btnlike">
                             <param id="0" name="Visibility">1</param>
                         </action>
@@ -255,10 +263,6 @@
                         </action>
                         <action id="-15" name="Set visible" sid="484347036743497" type="btnlike">
                             <param id="0" name="Visibility">0</param>
-                        </action>
-                        <action id="-9" name="Set value" sid="282731716438755" type="System">
-                            <param id="0" name="Variable">pontos</param>
-                            <param id="1" name="Value">pontos+1</param>
                         </action>
                         <action id="-16" name="Wait" sid="938510415056409" type="System">
                             <param id="0" name="Seconds">1.0</param>

@@ -15,6 +15,13 @@
                 <condition id="-2" name="On start of layout" sid="928091015595638" type="System" />
             </conditions>
             <actions>
+                <action id="37" name="Unload all audio" sid="450055850289813" type="Audio" />
+                <action id="0" name="Play" sid="582377630692411" type="Audio">
+                    <param id="0" name="Audio file">Puzzle-Dreams-3</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">-5</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
                 <action id="2" name="Set at X" sid="939864660839082" type="array_bexiga">
                     <param id="0" name="X">0</param>
                     <param id="1" name="Value">&quot;a&quot;</param>
@@ -262,6 +269,10 @@
                             <param id="0" name="Variable">pontosBexiga</param>
                             <param id="1" name="Value">pontosBexiga+1</param>
                         </action>
+                        <action id="-9" name="Set value" sid="195560610288285" type="System">
+                            <param id="0" name="Variable">PontosGerais</param>
+                            <param id="1" name="Value">PontosGerais+1</param>
+                        </action>
                     </actions>
                 </event-block>
             </sub-events>
@@ -294,6 +305,10 @@
                         <action id="-9" name="Set value" sid="283801631993561" type="System">
                             <param id="0" name="Variable">pontosBexiga</param>
                             <param id="1" name="Value">pontosBexiga+1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="546079801844640" type="System">
+                            <param id="0" name="Variable">PontosGerais</param>
+                            <param id="1" name="Value">PontosGerais+1</param>
                         </action>
                     </actions>
                 </event-block>
@@ -328,6 +343,10 @@
                             <param id="0" name="Variable">pontosBexiga</param>
                             <param id="1" name="Value">pontosBexiga+1</param>
                         </action>
+                        <action id="-9" name="Set value" sid="775501247954732" type="System">
+                            <param id="0" name="Variable">PontosGerais</param>
+                            <param id="1" name="Value">PontosGerais+1</param>
+                        </action>
                     </actions>
                 </event-block>
             </sub-events>
@@ -360,6 +379,10 @@
                         <action id="-9" name="Set value" sid="555619729409320" type="System">
                             <param id="0" name="Variable">pontosBexiga</param>
                             <param id="1" name="Value">pontosBexiga+1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="101518183829137" type="System">
+                            <param id="0" name="Variable">PontosGerais</param>
+                            <param id="1" name="Value">PontosGerais+1</param>
                         </action>
                     </actions>
                 </event-block>

@@ -3,15 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Divisao</name>
     <events>
-        <variable constant="0" name="operador6" sid="896679017378918" static="0" type="text"></variable>
-        <variable constant="0" name="acertoconta6" sid="435053456592988" static="0" type="number">0</variable>
-        <variable constant="0" name="sorteio6" sid="277263171195223" static="0" type="number">0</variable>
-        <variable constant="0" name="resposta6" sid="736158303036162" static="0" type="number">0</variable>
-        <variable constant="0" name="alternativa16" sid="321711631677278" static="0" type="number">0</variable>
-        <variable constant="0" name="alternativa18" sid="383433669669194" static="0" type="number">0</variable>
-        <variable constant="0" name="alternativa17" sid="188371418258887" static="0" type="number">0</variable>
-        <variable constant="0" name="n11" sid="543056986330234" static="0" type="number">0</variable>
-        <variable constant="0" name="n12" sid="362823762459314" static="0" type="number">0</variable>
+        <variable constant="0" name="pontosDivisao" sid="541480181224233" static="0" type="number">0</variable>
         <event-block sid="942517440244775">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="766962072356987" type="System" />
@@ -20,10 +12,6 @@
                 <action id="0" name="Call function" sid="115261286482067" type="Function">
                     <param id="0" name="Name">&quot;Calcular&quot;</param>
                     <param id="1" name="Parameter {n}"></param>
-                </action>
-                <action id="-9" name="Set value" sid="253572305547988" type="System">
-                    <param id="0" name="Variable">acertoconta</param>
-                    <param id="1" name="Value">0</param>
                 </action>
             </actions>
         </event-block>
@@ -168,9 +156,13 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-9" name="Set value" sid="777426272279398" type="System">
-                    <param id="0" name="Variable">acertoconta4</param>
-                    <param id="1" name="Value">acertoconta4+1</param>
+                <action id="-9" name="Set value" sid="108625962642567" type="System">
+                    <param id="0" name="Variable">PontosGerais</param>
+                    <param id="1" name="Value">PontosGerais+1</param>
+                </action>
+                <action id="-9" name="Set value" sid="437570640242354" type="System">
+                    <param id="0" name="Variable">pontosDivisao</param>
+                    <param id="1" name="Value">pontosDivisao+1</param>
                 </action>
                 <action id="0" name="Set text" sid="506751073061754" type="resp1">
                     <param id="0" name="Text">resposta</param>
@@ -204,28 +196,6 @@
                     <param id="1" name="Parameter {n}"></param>
                 </action>
             </actions>
-            <sub-events>
-                <event-block sid="486034486067755">
-                    <conditions>
-                        <condition id="-14" name="Compare variable" sid="593451702640525" type="System">
-                            <param id="0" name="Variable">acertoconta</param>
-                            <param id="1" name="Comparison">5</param>
-                            <param id="2" name="Value">3</param>
-                        </condition>
-                    </conditions>
-                    <actions />
-                </event-block>
-                <event-block sid="370046040242819">
-                    <conditions>
-                        <condition id="-14" name="Compare variable" sid="157242711305545" type="System">
-                            <param id="0" name="Variable">acertoconta</param>
-                            <param id="1" name="Comparison">2</param>
-                            <param id="2" name="Value">10</param>
-                        </condition>
-                    </conditions>
-                    <actions />
-                </event-block>
-            </sub-events>
         </event-block>
         <event-block sid="541426324967560">
             <conditions>
@@ -260,9 +230,13 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-9" name="Set value" sid="453128561993694" type="System">
-                    <param id="0" name="Variable">acertoconta4</param>
-                    <param id="1" name="Value">acertoconta4+1</param>
+                <action id="-9" name="Set value" sid="517855791200651" type="System">
+                    <param id="0" name="Variable">PontosGerais</param>
+                    <param id="1" name="Value">PontosGerais+1</param>
+                </action>
+                <action id="-9" name="Set value" sid="853401163212640" type="System">
+                    <param id="0" name="Variable">pontosDivisao</param>
+                    <param id="1" name="Value">pontosDivisao+1</param>
                 </action>
                 <action id="0" name="Set text" sid="340364790421509" type="resp1">
                     <param id="0" name="Text">resposta</param>
@@ -296,28 +270,6 @@
                     <param id="1" name="Parameter {n}"></param>
                 </action>
             </actions>
-            <sub-events>
-                <event-block sid="605581607110865">
-                    <conditions>
-                        <condition id="-14" name="Compare variable" sid="825917121409548" type="System">
-                            <param id="0" name="Variable">acertoconta</param>
-                            <param id="1" name="Comparison">5</param>
-                            <param id="2" name="Value">3</param>
-                        </condition>
-                    </conditions>
-                    <actions />
-                </event-block>
-                <event-block sid="415061137227475">
-                    <conditions>
-                        <condition id="-14" name="Compare variable" sid="717952125662987" type="System">
-                            <param id="0" name="Variable">acertoconta</param>
-                            <param id="1" name="Comparison">2</param>
-                            <param id="2" name="Value">10</param>
-                        </condition>
-                    </conditions>
-                    <actions />
-                </event-block>
-            </sub-events>
         </event-block>
         <event-block sid="938948265123069">
             <conditions>
@@ -352,9 +304,13 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-9" name="Set value" sid="180929146850562" type="System">
-                    <param id="0" name="Variable">acertoconta4</param>
-                    <param id="1" name="Value">acertoconta4+1</param>
+                <action id="-9" name="Set value" sid="777989371083703" type="System">
+                    <param id="0" name="Variable">PontosGerais</param>
+                    <param id="1" name="Value">PontosGerais+1</param>
+                </action>
+                <action id="-9" name="Set value" sid="491612053479258" type="System">
+                    <param id="0" name="Variable">pontosDivisao</param>
+                    <param id="1" name="Value">pontosDivisao+1</param>
                 </action>
                 <action id="0" name="Set text" sid="975799237030598" type="resp1">
                     <param id="0" name="Text">resposta</param>
@@ -388,28 +344,6 @@
                     <param id="1" name="Parameter {n}"></param>
                 </action>
             </actions>
-            <sub-events>
-                <event-block sid="728711653598374">
-                    <conditions>
-                        <condition id="-14" name="Compare variable" sid="933993041847482" type="System">
-                            <param id="0" name="Variable">acertoconta</param>
-                            <param id="1" name="Comparison">5</param>
-                            <param id="2" name="Value">3</param>
-                        </condition>
-                    </conditions>
-                    <actions />
-                </event-block>
-                <event-block sid="567144314939851">
-                    <conditions>
-                        <condition id="-14" name="Compare variable" sid="188959044070283" type="System">
-                            <param id="0" name="Variable">acertoconta</param>
-                            <param id="1" name="Comparison">2</param>
-                            <param id="2" name="Value">10</param>
-                        </condition>
-                    </conditions>
-                    <actions />
-                </event-block>
-            </sub-events>
         </event-block>
         <event-block sid="953718121072476">
             <conditions>
@@ -435,8 +369,8 @@
                 <condition id="-1" name="Every tick" sid="306583937443669" type="System" />
             </conditions>
             <actions>
-                <action id="0" name="Set text" sid="920043756524494" type="pontosDivisao">
-                    <param id="0" name="Text">acertoconta4</param>
+                <action id="0" name="Set text" sid="743442628946704" type="pontosDivisao">
+                    <param id="0" name="Text">pontosDivisao</param>
                 </action>
             </actions>
         </event-block>

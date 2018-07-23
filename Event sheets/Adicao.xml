@@ -3,24 +3,15 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Adicao</name>
     <events>
-        <variable constant="0" name="operador" sid="609915515989950" static="0" type="text"></variable>
-        <variable constant="0" name="acertoconta" sid="273333036626968" static="0" type="number">0</variable>
+        <variable constant="0" name="FaseAdicao" sid="330102976974874" static="0" type="number">0</variable>
         <variable constant="0" name="sorteio" sid="106702763185244" static="0" type="number">0</variable>
         <variable constant="0" name="resposta" sid="838305597370237" static="0" type="number">0</variable>
-        <variable constant="0" name="alternativa3" sid="122201696792511" static="0" type="number">0</variable>
-        <variable constant="0" name="alternativa2" sid="298319741074061" static="0" type="number">0</variable>
+        <variable constant="0" name="PontosAdicao" sid="273333036626968" static="0" type="number">0</variable>
         <variable constant="0" name="alternativa1" sid="661471438149967" static="0" type="number">0</variable>
-        <variable constant="0" name="n2" sid="177900291543432" static="0" type="number">0</variable>
+        <variable constant="0" name="alternativa2" sid="298319741074061" static="0" type="number">0</variable>
+        <variable constant="0" name="alternativa3" sid="122201696792511" static="0" type="number">0</variable>
         <variable constant="0" name="n1" sid="607045481842645" static="0" type="number">0</variable>
-        <variable constant="0" name="operador2" sid="305142710113208" static="0" type="text"></variable>
-        <variable constant="0" name="acertoconta2" sid="379016092862484" static="0" type="number">0</variable>
-        <variable constant="0" name="sorteio2" sid="760680666199066" static="0" type="number">0</variable>
-        <variable constant="0" name="resposta2" sid="393437612706946" static="0" type="number">0</variable>
-        <variable constant="0" name="alternativa4" sid="727604108698029" static="0" type="number">0</variable>
-        <variable constant="0" name="alternativa6" sid="868168715939798" static="0" type="number">0</variable>
-        <variable constant="0" name="alternativa5" sid="283312584631310" static="0" type="number">0</variable>
-        <variable constant="0" name="n3" sid="410421938105975" static="0" type="number">0</variable>
-        <variable constant="0" name="n4" sid="869073227009104" static="0" type="number">0</variable>
+        <variable constant="0" name="n2" sid="177900291543432" static="0" type="number">0</variable>
         <event-block sid="734739862082004">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="907217472847223" type="System" />
@@ -39,9 +30,13 @@
                 </condition>
             </conditions>
             <actions>
+                <action id="0" name="Call function" sid="420596902140704" type="Function">
+                    <param id="0" name="Name">&quot;fases&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
                 <action id="-9" name="Set value" sid="482728278118703" type="System">
                     <param id="0" name="Variable">n1</param>
-                    <param id="1" name="Value">round(random(1,9))</param>
+                    <param id="1" name="Value">round(random(FaseAdicao-10,FaseAdicao))</param>
                 </action>
                 <action id="-9" name="Set value" sid="820991916602713" type="System">
                     <param id="0" name="Variable">n2</param>
@@ -159,243 +154,355 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="747576984988563">
-            <conditions>
-                <condition id="6" name="On object clicked" sid="462545391974154" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">alternativa1</param>
-                </condition>
-                <condition id="-14" name="Compare variable" sid="894105966859263" type="System">
-                    <param id="0" name="Variable">alternativa1</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">resposta</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-9" name="Set value" sid="490715721673315" type="System">
-                    <param id="0" name="Variable">acertoconta</param>
-                    <param id="1" name="Value">acertoconta+1</param>
-                </action>
-                <action id="0" name="Set text" sid="231825475524521" type="resp1">
-                    <param id="0" name="Text">resposta</param>
-                </action>
-                <action id="-15" name="Set visible" sid="184050312703170" type="resp1">
-                    <param id="0" name="Visibility">1</param>
-                </action>
-                <action id="-15" name="Set visible" sid="883124222351970" type="alternativa1">
-                    <param id="0" name="Visibility">0</param>
-                </action>
-                <action id="-15" name="Set visible" sid="425067118675747" type="alternativa2">
-                    <param id="0" name="Visibility">0</param>
-                </action>
-                <action id="-15" name="Set visible" sid="107844665840858" type="alternativa3">
-                    <param id="0" name="Visibility">0</param>
-                </action>
-                <action id="-15" name="Set visible" sid="455777977587529" type="xalt1">
-                    <param id="0" name="Visibility">0</param>
-                </action>
-                <action id="-15" name="Set visible" sid="821279577466410" type="xalt2">
-                    <param id="0" name="Visibility">0</param>
-                </action>
-                <action id="-15" name="Set visible" sid="541094774386175" type="xalt3">
-                    <param id="0" name="Visibility">0</param>
-                </action>
-                <action id="-16" name="Wait" sid="841384621955043" type="System">
-                    <param id="0" name="Seconds">2</param>
-                </action>
-                <action id="0" name="Call function" sid="221860021408289" type="Function">
-                    <param id="0" name="Name">&quot;calcular&quot;</param>
-                    <param id="1" name="Parameter {n}"></param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="463834300164313">
-            <conditions>
-                <condition id="6" name="On object clicked" sid="831570940819224" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">alternativa1</param>
-                </condition>
-                <condition id="-14" name="Compare variable" sid="679200847599686" type="System">
-                    <param id="0" name="Variable">alternativa1</param>
-                    <param id="1" name="Comparison">1</param>
-                    <param id="2" name="Value">resposta</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-15" name="Set visible" sid="142744048571871" type="xalt1">
-                    <param id="0" name="Visibility">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="331465344174074">
-            <conditions>
-                <condition id="6" name="On object clicked" sid="808711952001382" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">alternativa2</param>
-                </condition>
-                <condition id="-14" name="Compare variable" sid="285167263521011" type="System">
-                    <param id="0" name="Variable">alternativa2</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">resposta</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-9" name="Set value" sid="511851687443578" type="System">
-                    <param id="0" name="Variable">acertoconta</param>
-                    <param id="1" name="Value">acertoconta+1</param>
-                </action>
-                <action id="0" name="Set text" sid="390627672802803" type="resp1">
-                    <param id="0" name="Text">resposta</param>
-                </action>
-                <action id="-15" name="Set visible" sid="594233179047039" type="resp1">
-                    <param id="0" name="Visibility">1</param>
-                </action>
-                <action id="-15" name="Set visible" sid="584906780354180" type="alternativa1">
-                    <param id="0" name="Visibility">0</param>
-                </action>
-                <action id="-15" name="Set visible" sid="479187774050589" type="alternativa2">
-                    <param id="0" name="Visibility">0</param>
-                </action>
-                <action id="-15" name="Set visible" sid="816276347532007" type="alternativa3">
-                    <param id="0" name="Visibility">0</param>
-                </action>
-                <action id="-15" name="Set visible" sid="891535718015264" type="xalt1">
-                    <param id="0" name="Visibility">0</param>
-                </action>
-                <action id="-15" name="Set visible" sid="564082567376150" type="xalt2">
-                    <param id="0" name="Visibility">0</param>
-                </action>
-                <action id="-15" name="Set visible" sid="861908107100768" type="xalt3">
-                    <param id="0" name="Visibility">0</param>
-                </action>
-                <action id="-16" name="Wait" sid="593968733495094" type="System">
-                    <param id="0" name="Seconds">2</param>
-                </action>
-                <action id="0" name="Call function" sid="773879401494666" type="Function">
-                    <param id="0" name="Name">&quot;calcular&quot;</param>
-                    <param id="1" name="Parameter {n}"></param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="347100488574558">
-            <conditions>
-                <condition id="6" name="On object clicked" sid="436525175592375" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">alternativa2</param>
-                </condition>
-                <condition id="-14" name="Compare variable" sid="255128174711019" type="System">
-                    <param id="0" name="Variable">alternativa2</param>
-                    <param id="1" name="Comparison">1</param>
-                    <param id="2" name="Value">resposta</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-15" name="Set visible" sid="521464505829468" type="xalt2">
-                    <param id="0" name="Visibility">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="164913934163712">
-            <conditions>
-                <condition id="6" name="On object clicked" sid="112918694779608" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">alternativa3</param>
-                </condition>
-                <condition id="-14" name="Compare variable" sid="588270118917543" type="System">
-                    <param id="0" name="Variable">alternativa3</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">resposta</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-9" name="Set value" sid="169641641682701" type="System">
-                    <param id="0" name="Variable">acertoconta</param>
-                    <param id="1" name="Value">acertoconta+1</param>
-                </action>
-                <action id="0" name="Set text" sid="450325237264540" type="resp1">
-                    <param id="0" name="Text">resposta</param>
-                </action>
-                <action id="-15" name="Set visible" sid="438265329169859" type="resp1">
-                    <param id="0" name="Visibility">1</param>
-                </action>
-                <action id="-15" name="Set visible" sid="996856597661099" type="alternativa1">
-                    <param id="0" name="Visibility">0</param>
-                </action>
-                <action id="-15" name="Set visible" sid="810156293139825" type="alternativa2">
-                    <param id="0" name="Visibility">0</param>
-                </action>
-                <action id="-15" name="Set visible" sid="144192193539151" type="alternativa3">
-                    <param id="0" name="Visibility">0</param>
-                </action>
-                <action id="-15" name="Set visible" sid="235700720912922" type="xalt1">
-                    <param id="0" name="Visibility">0</param>
-                </action>
-                <action id="-15" name="Set visible" sid="290712395931365" type="xalt2">
-                    <param id="0" name="Visibility">0</param>
-                </action>
-                <action id="-15" name="Set visible" sid="951815598958329" type="xalt3">
-                    <param id="0" name="Visibility">0</param>
-                </action>
-                <action id="-16" name="Wait" sid="338033957102427" type="System">
-                    <param id="0" name="Seconds">2</param>
-                </action>
-                <action id="0" name="Call function" sid="537760867553576" type="Function">
-                    <param id="0" name="Name">&quot;calcular&quot;</param>
-                    <param id="1" name="Parameter {n}"></param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="164284316226354">
-            <conditions>
-                <condition id="6" name="On object clicked" sid="817692615530204" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">alternativa3</param>
-                </condition>
-                <condition id="-14" name="Compare variable" sid="434841030036226" type="System">
-                    <param id="0" name="Variable">alternativa3</param>
-                    <param id="1" name="Comparison">1</param>
-                    <param id="2" name="Value">resposta</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-15" name="Set visible" sid="716161383926543" type="xalt3">
-                    <param id="0" name="Visibility">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="881106751538519">
-            <conditions />
-            <actions />
-        </event-block>
+        <event-group description="" sid="300511807855169" title="Click">
+            <sub-events>
+                <event-block sid="192979244086239">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="288771405630973" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">SetaVoltar</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="723324112428904" type="System">
+                            <param id="0" name="Layout">MenuCalculo</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="164284316226354">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="817692615530204" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">alternativa3</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="434841030036226" type="System">
+                            <param id="0" name="Variable">alternativa3</param>
+                            <param id="1" name="Comparison">1</param>
+                            <param id="2" name="Value">resposta</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="716161383926543" type="xalt3">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="164913934163712">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="112918694779608" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">alternativa3</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="588270118917543" type="System">
+                            <param id="0" name="Variable">alternativa3</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">resposta</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="919389746776518" type="System">
+                            <param id="0" name="Variable">PontosGerais</param>
+                            <param id="1" name="Value">PontosGerais+1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="169641641682701" type="System">
+                            <param id="0" name="Variable">PontosAdicao</param>
+                            <param id="1" name="Value">PontosAdicao+1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="450325237264540" type="resp1">
+                            <param id="0" name="Text">resposta</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="438265329169859" type="resp1">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="996856597661099" type="alternativa1">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="810156293139825" type="alternativa2">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="144192193539151" type="alternativa3">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="235700720912922" type="xalt1">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="290712395931365" type="xalt2">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="951815598958329" type="xalt3">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="338033957102427" type="System">
+                            <param id="0" name="Seconds">2</param>
+                        </action>
+                        <action id="0" name="Call function" sid="537760867553576" type="Function">
+                            <param id="0" name="Name">&quot;calcular&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="347100488574558">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="436525175592375" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">alternativa2</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="255128174711019" type="System">
+                            <param id="0" name="Variable">alternativa2</param>
+                            <param id="1" name="Comparison">1</param>
+                            <param id="2" name="Value">resposta</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="521464505829468" type="xalt2">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="331465344174074">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="808711952001382" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">alternativa2</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="285167263521011" type="System">
+                            <param id="0" name="Variable">alternativa2</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">resposta</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="522083875019312" type="System">
+                            <param id="0" name="Variable">PontosGerais</param>
+                            <param id="1" name="Value">PontosGerais+1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="511851687443578" type="System">
+                            <param id="0" name="Variable">PontosAdicao</param>
+                            <param id="1" name="Value">PontosAdicao+1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="390627672802803" type="resp1">
+                            <param id="0" name="Text">resposta</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="594233179047039" type="resp1">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="584906780354180" type="alternativa1">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="479187774050589" type="alternativa2">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="816276347532007" type="alternativa3">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="891535718015264" type="xalt1">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="564082567376150" type="xalt2">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="861908107100768" type="xalt3">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="593968733495094" type="System">
+                            <param id="0" name="Seconds">2</param>
+                        </action>
+                        <action id="0" name="Call function" sid="773879401494666" type="Function">
+                            <param id="0" name="Name">&quot;calcular&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="463834300164313">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="831570940819224" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">alternativa1</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="679200847599686" type="System">
+                            <param id="0" name="Variable">alternativa1</param>
+                            <param id="1" name="Comparison">1</param>
+                            <param id="2" name="Value">resposta</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="142744048571871" type="xalt1">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="747576984988563">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="462545391974154" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">alternativa1</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="894105966859263" type="System">
+                            <param id="0" name="Variable">alternativa1</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">resposta</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="612442506605033" type="System">
+                            <param id="0" name="Variable">PontosGerais</param>
+                            <param id="1" name="Value">PontosGerais+1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="490715721673315" type="System">
+                            <param id="0" name="Variable">PontosAdicao</param>
+                            <param id="1" name="Value">PontosAdicao+1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="231825475524521" type="resp1">
+                            <param id="0" name="Text">resposta</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="184050312703170" type="resp1">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="883124222351970" type="alternativa1">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="425067118675747" type="alternativa2">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="107844665840858" type="alternativa3">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="455777977587529" type="xalt1">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="821279577466410" type="xalt2">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="541094774386175" type="xalt3">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="841384621955043" type="System">
+                            <param id="0" name="Seconds">2</param>
+                        </action>
+                        <action id="0" name="Call function" sid="221860021408289" type="Function">
+                            <param id="0" name="Name">&quot;calcular&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
         <event-block sid="553383075347957">
             <conditions>
                 <condition id="-1" name="Every tick" sid="488579352717377" type="System" />
             </conditions>
             <actions>
                 <action id="0" name="Set text" sid="469810571665440" type="Pontos">
-                    <param id="0" name="Text">acertoconta</param>
+                    <param id="0" name="Text">PontosAdicao</param>
                 </action>
             </actions>
         </event-block>
-        <event-block sid="192979244086239">
+        <event-block sid="926082370661643">
             <conditions>
-                <condition id="6" name="On object clicked" sid="288771405630973" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">SetaVoltar</param>
+                <condition id="0" name="On function" sid="562378443512088" type="Function">
+                    <param id="0" name="Name">&quot;fases&quot;</param>
                 </condition>
             </conditions>
-            <actions>
-                <action id="-2" name="Go to layout" sid="723324112428904" type="System">
-                    <param id="0" name="Layout">MenuCalculo</param>
-                </action>
-            </actions>
+            <actions />
+            <sub-events>
+                <event-block sid="243643591946750">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="979999927887996" type="System">
+                            <param id="0" name="Variable">PontosAdicao</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">10</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="124217519621510" type="System">
+                            <param id="0" name="Variable">FaseAdicao</param>
+                            <param id="1" name="Value">10</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="395204945929508">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="138867181291654" type="System">
+                            <param id="0" name="Variable">PontosAdicao</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">10</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="600718495535616" type="System">
+                            <param id="0" name="Variable">PontosAdicao</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">20</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="501429408040065" type="System">
+                            <param id="0" name="Variable">FaseAdicao</param>
+                            <param id="1" name="Value">20</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="877461858546416">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="347249893684375" type="System">
+                            <param id="0" name="Variable">PontosAdicao</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">20</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="276250600539832" type="System">
+                            <param id="0" name="Variable">PontosAdicao</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">30</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="937683230886963" type="System">
+                            <param id="0" name="Variable">FaseAdicao</param>
+                            <param id="1" name="Value">30</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="820063569298309">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="137978001843163" type="System">
+                            <param id="0" name="Variable">PontosAdicao</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">30</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="256752802585218" type="System">
+                            <param id="0" name="Variable">PontosAdicao</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">40</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="248894574372105" type="System">
+                            <param id="0" name="Variable">FaseAdicao</param>
+                            <param id="1" name="Value">40</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="254554848694596">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="630146780481631" type="System">
+                            <param id="0" name="Variable">PontosAdicao</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">40</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="864608105939945" type="System">
+                            <param id="0" name="Variable">FaseAdicao</param>
+                            <param id="1" name="Value">50</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
     </events>
 </c2eventsheet>

@@ -1162,6 +1162,12 @@
                 </behavior-type>
             </behaviors>
         </object-type>
+        <object-type name="pontosGerais" sid="221098406733445">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="textosPontosJogo" sid="884950192390147">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>

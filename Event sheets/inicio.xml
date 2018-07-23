@@ -4,6 +4,20 @@
     <name>inicio</name>
     <events>
         <variable constant="0" name="level" sid="779922657468491" static="0" type="number">0</variable>
+        <event-block sid="167905491112110">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="959042633118354" type="System" />
+            </conditions>
+            <actions>
+                <action id="37" name="Unload all audio" sid="457466949752545" type="Audio" />
+                <action id="0" name="Play" sid="292198540062842" type="Audio">
+                    <param id="0" name="Audio file">raining bits lowfi</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">-5</param>
+                    <param id="1" name="Tag (optional)">&quot;music&quot;</param>
+                </action>
+            </actions>
+        </event-block>
         <event-block any="1" sid="533429266538578">
             <conditions>
                 <condition id="2" name="Key is down" sid="444356583366100" type="Keyboard">
@@ -16,19 +30,6 @@
             <actions>
                 <action id="-25" name="Go to layout (by name)" sid="600455974355784" type="System">
                     <param id="0" name="Layout">&quot;fase1&quot;</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="167905491112110">
-            <conditions>
-                <condition id="-2" name="On start of layout" sid="959042633118354" type="System" />
-            </conditions>
-            <actions>
-                <action id="0" name="Play" sid="292198540062842" type="Audio">
-                    <param id="0" name="Audio file">raining bits lowfi</param>
-                    <param id="2" name="Loop">1</param>
-                    <param id="3" name="Volume">-5</param>
-                    <param id="1" name="Tag (optional)">&quot;music&quot;</param>
                 </action>
             </actions>
         </event-block>
