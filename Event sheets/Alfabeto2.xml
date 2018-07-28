@@ -190,18 +190,15 @@
             <actions>
                 <action id="-9" name="Set value" sid="681765323325099" type="System">
                     <param id="0" name="Variable">vrx1</param>
-                    <param id="1" name="Value">round(random(0,23))</param>
+                    <param id="1" name="Value">round(random(0,11))</param>
                 </action>
                 <action id="-9" name="Set value" sid="780275857816520" type="System">
                     <param id="0" name="Variable">vrx2</param>
-                    <param id="1" name="Value">round(random(0,23))</param>
+                    <param id="1" name="Value">round(random(12,23))</param>
                 </action>
                 <action id="-9" name="Set value" sid="659790118107202" type="System">
                     <param id="0" name="Variable">vperguntaalf</param>
                     <param id="1" name="Value">choose(vrx1,vrx2)</param>
-                </action>
-                <action id="-16" name="Wait" sid="945796442075639" type="System">
-                    <param id="0" name="Seconds">0.5</param>
                 </action>
             </actions>
         </event-block>
@@ -271,10 +268,8 @@
         </event-block>
         <event-block sid="432973469590334">
             <conditions>
-                <condition id="6" name="On object clicked" sid="828758455760575" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">sf4</param>
+                <condition id="3" name="On touched object" sid="828758455760575" type="Touch">
+                    <param id="0" name="Object">sf4</param>
                 </condition>
             </conditions>
             <actions>
@@ -290,10 +285,8 @@
         </event-block>
         <event-block sid="114746735707135">
             <conditions>
-                <condition id="6" name="On object clicked" sid="469309268932473" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">sf2</param>
+                <condition id="3" name="On touched object" sid="469309268932473" type="Touch">
+                    <param id="0" name="Object">sf2</param>
                 </condition>
             </conditions>
             <actions>
@@ -307,22 +300,10 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="731381708004348">
-            <conditions>
-                <condition id="6" name="On object clicked" sid="142135114195568" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">sonAlfa</param>
-                </condition>
-            </conditions>
-            <actions />
-        </event-block>
         <event-block sid="878043361817421">
             <conditions>
-                <condition id="6" name="On object clicked" sid="781952077961108" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">sonAlfa</param>
+                <condition id="3" name="On touched object" sid="781952077961108" type="Touch">
+                    <param id="0" name="Object">sonAlfa</param>
                 </condition>
             </conditions>
             <actions>
@@ -347,10 +328,8 @@
         </event-block>
         <event-block sid="688411463969103">
             <conditions>
-                <condition id="6" name="On object clicked" sid="586341433387546" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">SetaVoltarAlfabeto2</param>
+                <condition id="3" name="On touched object" sid="586341433387546" type="Touch">
+                    <param id="0" name="Object">SetaVoltarAlfabeto2</param>
                 </condition>
             </conditions>
             <actions>

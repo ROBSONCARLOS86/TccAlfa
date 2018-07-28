@@ -242,10 +242,8 @@
         </event-block>
         <event-block sid="601117213925937">
             <conditions>
-                <condition id="6" name="On object clicked" sid="813767866631285" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">bexiga1</param>
+                <condition id="3" name="On touched object" sid="813767866631285" type="Touch">
+                    <param id="0" name="Object">bexiga1</param>
                 </condition>
             </conditions>
             <actions>
@@ -279,10 +277,8 @@
         </event-block>
         <event-block sid="808498981797897">
             <conditions>
-                <condition id="6" name="On object clicked" sid="335065532609692" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">bexiga2</param>
+                <condition id="3" name="On touched object" sid="335065532609692" type="Touch">
+                    <param id="0" name="Object">bexiga2</param>
                 </condition>
             </conditions>
             <actions>
@@ -316,10 +312,8 @@
         </event-block>
         <event-block sid="445887130117125">
             <conditions>
-                <condition id="6" name="On object clicked" sid="539875125415508" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">bexiga3</param>
+                <condition id="3" name="On touched object" sid="539875125415508" type="Touch">
+                    <param id="0" name="Object">bexiga3</param>
                 </condition>
             </conditions>
             <actions>
@@ -353,10 +347,8 @@
         </event-block>
         <event-block sid="578357407505669">
             <conditions>
-                <condition id="6" name="On object clicked" sid="393637387554551" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">bexiga4</param>
+                <condition id="3" name="On touched object" sid="393637387554551" type="Touch">
+                    <param id="0" name="Object">bexiga4</param>
                 </condition>
             </conditions>
             <actions>
@@ -390,10 +382,8 @@
         </event-block>
         <event-block sid="119423533217901">
             <conditions>
-                <condition id="6" name="On object clicked" sid="581848199967072" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">son</param>
+                <condition id="3" name="On touched object" sid="581848199967072" type="Touch">
+                    <param id="0" name="Object">son</param>
                 </condition>
             </conditions>
             <actions>
@@ -418,10 +408,8 @@
         </event-block>
         <event-block sid="683741697697081">
             <conditions>
-                <condition id="6" name="On object clicked" sid="297655947192723" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">SetaVoltarBexiga</param>
+                <condition id="3" name="On touched object" sid="297655947192723" type="Touch">
+                    <param id="0" name="Object">SetaVoltarBexiga</param>
                 </condition>
             </conditions>
             <actions>
