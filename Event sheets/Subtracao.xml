@@ -193,10 +193,8 @@
         </event-block>
         <event-block sid="258833373995842">
             <conditions>
-                <condition id="6" name="On object clicked" sid="855540959469385" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">alternativa1</param>
+                <condition id="3" name="On touched object" sid="855540959469385" type="Touch">
+                    <param id="0" name="Object">alternativa1</param>
                 </condition>
                 <condition id="-14" name="Compare variable" sid="112287707383694" type="System">
                     <param id="0" name="Variable">alternativa1</param>
@@ -248,10 +246,8 @@
         </event-block>
         <event-block sid="622715162033589">
             <conditions>
-                <condition id="6" name="On object clicked" sid="416550756849900" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">alternativa1</param>
+                <condition id="3" name="On touched object" sid="416550756849900" type="Touch">
+                    <param id="0" name="Object">alternativa1</param>
                 </condition>
                 <condition id="-14" name="Compare variable" sid="422551341232498" type="System">
                     <param id="0" name="Variable">alternativa1</param>
@@ -267,10 +263,8 @@
         </event-block>
         <event-block sid="157390382473727">
             <conditions>
-                <condition id="6" name="On object clicked" sid="727293333962803" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">alternativa2</param>
+                <condition id="3" name="On touched object" sid="727293333962803" type="Touch">
+                    <param id="0" name="Object">alternativa2</param>
                 </condition>
                 <condition id="-14" name="Compare variable" sid="445896345239260" type="System">
                     <param id="0" name="Variable">alternativa2</param>
@@ -322,10 +316,8 @@
         </event-block>
         <event-block sid="391991483813964">
             <conditions>
-                <condition id="6" name="On object clicked" sid="520059495597871" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">alternativa2</param>
+                <condition id="3" name="On touched object" sid="520059495597871" type="Touch">
+                    <param id="0" name="Object">alternativa2</param>
                 </condition>
                 <condition id="-14" name="Compare variable" sid="697762887245579" type="System">
                     <param id="0" name="Variable">alternativa2</param>
@@ -341,10 +333,8 @@
         </event-block>
         <event-block sid="786539313444769">
             <conditions>
-                <condition id="6" name="On object clicked" sid="266171302696720" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">alternativa3</param>
+                <condition id="3" name="On touched object" sid="266171302696720" type="Touch">
+                    <param id="0" name="Object">alternativa3</param>
                 </condition>
                 <condition id="-14" name="Compare variable" sid="306615627004620" type="System">
                     <param id="0" name="Variable">alternativa3</param>
@@ -396,10 +386,8 @@
         </event-block>
         <event-block sid="932962534932446">
             <conditions>
-                <condition id="6" name="On object clicked" sid="799446087248733" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">alternativa3</param>
+                <condition id="3" name="On touched object" sid="799446087248733" type="Touch">
+                    <param id="0" name="Object">alternativa3</param>
                 </condition>
                 <condition id="-14" name="Compare variable" sid="645299307794395" type="System">
                     <param id="0" name="Variable">alternativa3</param>
@@ -425,10 +413,8 @@
         </event-block>
         <event-block sid="783521118638154">
             <conditions>
-                <condition id="6" name="On object clicked" sid="583792892141740" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">SetaVoltar4</param>
+                <condition id="3" name="On touched object" sid="583792892141740" type="Touch">
+                    <param id="0" name="Object">SetaVoltar4</param>
                 </condition>
             </conditions>
             <actions>

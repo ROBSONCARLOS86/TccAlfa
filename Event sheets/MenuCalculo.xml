@@ -5,10 +5,8 @@
     <events>
         <event-block sid="872351721550814">
             <conditions>
-                <condition id="6" name="On object clicked" sid="337378745470773" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">MenuAdicao</param>
+                <condition id="3" name="On touched object" sid="337378745470773" type="Touch">
+                    <param id="0" name="Object">MenuAdicao</param>
                 </condition>
             </conditions>
             <actions>
@@ -19,10 +17,8 @@
         </event-block>
         <event-block sid="690412582231739">
             <conditions>
-                <condition id="6" name="On object clicked" sid="911874642791832" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">MenuSubtracao</param>
+                <condition id="3" name="On touched object" sid="350345779730121" type="Touch">
+                    <param id="0" name="Object">MenuSubtracao</param>
                 </condition>
             </conditions>
             <actions>
@@ -33,10 +29,8 @@
         </event-block>
         <event-block sid="709040267379517">
             <conditions>
-                <condition id="6" name="On object clicked" sid="833749630717140" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">MenuMultiplicacao</param>
+                <condition id="3" name="On touched object" sid="502091129721169" type="Touch">
+                    <param id="0" name="Object">MenuMultiplicacao</param>
                 </condition>
             </conditions>
             <actions>
@@ -47,10 +41,8 @@
         </event-block>
         <event-block sid="249933126833929">
             <conditions>
-                <condition id="6" name="On object clicked" sid="538935463453865" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">MenuDivisao</param>
+                <condition id="3" name="On touched object" sid="780371923796698" type="Touch">
+                    <param id="0" name="Object">MenuDivisao</param>
                 </condition>
             </conditions>
             <actions>
@@ -61,10 +53,8 @@
         </event-block>
         <event-block sid="447876824252230">
             <conditions>
-                <condition id="6" name="On object clicked" sid="722066653798430" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">SetaVoltar2</param>
+                <condition id="3" name="On touched object" sid="197527803095651" type="Touch">
+                    <param id="0" name="Object">SetaVoltar2</param>
                 </condition>
             </conditions>
             <actions>
