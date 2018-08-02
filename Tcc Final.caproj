@@ -1168,6 +1168,25 @@
         <object-type name="textosPontosJogo" sid="884950192390147">
             <plugin id="Text" />
         </object-type>
+        <object-type name="menuGameOver" sid="183048139936619">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="566285013630995" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\POS\construct\Arquivos\PlataformaArquivos\gui\menu.png">
+                        <collision-poly>
+                            <point x="0.0681818" y="0.0674157" />
+                            <point x="0.5" y="0" />
+                            <point x="0.931818" y="0.0674157" />
+                            <point x="1" y="0.5" />
+                            <point x="0.926136" y="0.926966" />
+                            <point x="0.5" y="0.994382" />
+                            <point x="0.0681818" y="0.932584" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
