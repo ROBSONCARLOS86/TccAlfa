@@ -137,7 +137,7 @@
                 </instance>
                 <instance type="Text4" uid="26">
                     <properties>
-                        <text>Calculos</text>
+                        <text>Cálculo</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Stencil,-37,400,0</font>
                         <color>255,255,255</color>
@@ -150,7 +150,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>444</x>
+                        <x>453</x>
                         <y>198</y>
                         <z>0</z>
                         <width>189</width>

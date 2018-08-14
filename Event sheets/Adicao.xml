@@ -98,6 +98,10 @@
                 <action id="-15" name="Set visible" sid="384587467238936" type="xalt3">
                     <param id="0" name="Visibility">0</param>
                 </action>
+                <action id="-9" name="Set value" sid="134520274415515" type="System">
+                    <param id="0" name="Variable">click</param>
+                    <param id="1" name="Value">0</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="451272375423451">
@@ -190,6 +194,11 @@
                         <condition id="3" name="On touched object" sid="112918694779608" type="Touch">
                             <param id="0" name="Object">alternativa3</param>
                         </condition>
+                        <condition id="-14" name="Compare variable" sid="880599796730855" type="System">
+                            <param id="0" name="Variable">click</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
                         <condition id="-14" name="Compare variable" sid="588270118917543" type="System">
                             <param id="0" name="Variable">alternativa3</param>
                             <param id="1" name="Comparison">0</param>
@@ -197,6 +206,10 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action id="-9" name="Set value" sid="951257860789545" type="System">
+                            <param id="0" name="Variable">click</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
                         <action id="-9" name="Set value" sid="919389746776518" type="System">
                             <param id="0" name="Variable">PontosGerais</param>
                             <param id="1" name="Value">PontosGerais+1</param>
@@ -260,6 +273,11 @@
                         <condition id="3" name="On touched object" sid="808711952001382" type="Touch">
                             <param id="0" name="Object">alternativa2</param>
                         </condition>
+                        <condition id="-14" name="Compare variable" sid="730111664846305" type="System">
+                            <param id="0" name="Variable">click</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
                         <condition id="-14" name="Compare variable" sid="285167263521011" type="System">
                             <param id="0" name="Variable">alternativa2</param>
                             <param id="1" name="Comparison">0</param>
@@ -267,6 +285,10 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action id="-9" name="Set value" sid="836614061239277" type="System">
+                            <param id="0" name="Variable">click</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
                         <action id="-9" name="Set value" sid="522083875019312" type="System">
                             <param id="0" name="Variable">PontosGerais</param>
                             <param id="1" name="Value">PontosGerais+1</param>
@@ -330,6 +352,11 @@
                         <condition id="3" name="On touched object" sid="462545391974154" type="Touch">
                             <param id="0" name="Object">alternativa1</param>
                         </condition>
+                        <condition id="-14" name="Compare variable" sid="565834001308324" type="System">
+                            <param id="0" name="Variable">click</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
                         <condition id="-14" name="Compare variable" sid="894105966859263" type="System">
                             <param id="0" name="Variable">alternativa1</param>
                             <param id="1" name="Comparison">0</param>
@@ -337,6 +364,10 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action id="-9" name="Set value" sid="670338971003374" type="System">
+                            <param id="0" name="Variable">click</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
                         <action id="-9" name="Set value" sid="612442506605033" type="System">
                             <param id="0" name="Variable">PontosGerais</param>
                             <param id="1" name="Value">PontosGerais+1</param>

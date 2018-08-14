@@ -133,6 +133,10 @@
                     <param id="0" name="Name">&quot;sorteio&quot;</param>
                     <param id="1" name="Parameter {n}"></param>
                 </action>
+                <action id="-9" name="Set value" sid="294812508401276" type="System">
+                    <param id="0" name="Variable">click</param>
+                    <param id="1" name="Value">0</param>
+                </action>
             </actions>
             <sub-events>
                 <event-block sid="827755756745845">
@@ -242,6 +246,10 @@
                         <action id="-16" name="Wait" sid="272987715149486" type="System">
                             <param id="0" name="Seconds">1.0</param>
                         </action>
+                        <action id="-9" name="Set value" sid="915721033316107" type="System">
+                            <param id="0" name="Variable">click</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
                         <action id="0" name="Call function" sid="573244810472874" type="Function">
                             <param id="0" name="Name">&quot;start&quot;</param>
                             <param id="1" name="Parameter {n}"></param>
@@ -255,6 +263,10 @@
                     <actions>
                         <action id="-15" name="Set visible" sid="714897013292844" type="btndislike">
                             <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="260567841306221" type="System">
+                            <param id="0" name="Variable">click</param>
+                            <param id="1" name="Value">0</param>
                         </action>
                         <action id="-16" name="Wait" sid="543263877885644" type="System">
                             <param id="0" name="Seconds">1.0</param>
@@ -271,11 +283,20 @@
                 <condition id="3" name="On touched object" sid="828758455760575" type="Touch">
                     <param id="0" name="Object">sf4</param>
                 </condition>
+                <condition id="-14" name="Compare variable" sid="768561659550062" type="System">
+                    <param id="0" name="Variable">click</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
             </conditions>
             <actions>
                 <action id="-9" name="Set value" sid="543840283097172" type="System">
                     <param id="0" name="Variable">vr</param>
                     <param id="1" name="Value">vrx1</param>
+                </action>
+                <action id="-9" name="Set value" sid="244936826443742" type="System">
+                    <param id="0" name="Variable">click</param>
+                    <param id="1" name="Value">1</param>
                 </action>
                 <action id="0" name="Call function" sid="133242007356407" type="Function">
                     <param id="0" name="Name">&quot;verifica&quot;</param>
@@ -288,11 +309,20 @@
                 <condition id="3" name="On touched object" sid="469309268932473" type="Touch">
                     <param id="0" name="Object">sf2</param>
                 </condition>
+                <condition id="-14" name="Compare variable" sid="315142893130674" type="System">
+                    <param id="0" name="Variable">click</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
             </conditions>
             <actions>
                 <action id="-9" name="Set value" sid="649715812597070" type="System">
                     <param id="0" name="Variable">vr</param>
                     <param id="1" name="Value">vrx2</param>
+                </action>
+                <action id="-9" name="Set value" sid="431679643498688" type="System">
+                    <param id="0" name="Variable">click</param>
+                    <param id="1" name="Value">1</param>
                 </action>
                 <action id="0" name="Call function" sid="163511676849366" type="Function">
                     <param id="0" name="Name">&quot;verifica&quot;</param>

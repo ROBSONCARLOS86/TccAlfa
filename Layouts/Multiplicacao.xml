@@ -55,7 +55,7 @@
                     <properties>
                         <text>x</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Snap ITC,-96,400,0</font>
+                        <font>Snap ITC,-80,400,0</font>
                         <color>255,255,255</color>
                         <horizontal-alignment>Center</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
@@ -66,7 +66,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>234</x>
+                        <x>293</x>
                         <y>265</y>
                         <z>0</z>
                         <width>100</width>
@@ -84,7 +84,7 @@
                         <character-height>285</character-height>
                         <character-set>0123456789</character-set>
                         <text>0</text>
-                        <scale>0.7</scale>
+                        <scale>0.5</scale>
                         <initial-visibility>Visible</initial-visibility>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
@@ -96,10 +96,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>272</x>
-                        <y>116</y>
+                        <x>344</x>
+                        <y>171</y>
                         <z>0</z>
-                        <width>140</width>
+                        <width>157</width>
                         <height>200</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
@@ -112,7 +112,7 @@
                     <properties>
                         <text>=</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Snap ITC,-96,400,0</font>
+                        <font>Snap ITC,-80,400,0</font>
                         <color>255,255,255</color>
                         <horizontal-alignment>Center</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
@@ -123,7 +123,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>463</x>
+                        <x>525</x>
                         <y>256</y>
                         <z>0</z>
                         <width>100</width>
@@ -140,8 +140,8 @@
                         <character-width>200</character-width>
                         <character-height>285</character-height>
                         <character-set>0123456789</character-set>
-                        <text>0</text>
-                        <scale>0.7</scale>
+                        <text>10</text>
+                        <scale>0.5</scale>
                         <initial-visibility>Visible</initial-visibility>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
@@ -153,10 +153,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>44</x>
-                        <y>117</y>
+                        <x>42</x>
+                        <y>171</y>
                         <z>0</z>
-                        <width>140</width>
+                        <width>200</width>
                         <height>200</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
@@ -171,7 +171,7 @@
                         <character-height>285</character-height>
                         <character-set>0123456789</character-set>
                         <text>10</text>
-                        <scale>0.7</scale>
+                        <scale>0.5</scale>
                         <initial-visibility>Invisible</initial-visibility>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
@@ -183,8 +183,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>484</x>
-                        <y>117</y>
+                        <x>552</x>
+                        <y>170</y>
                         <z>0</z>
                         <width>280</width>
                         <height>200</height>
@@ -214,7 +214,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>98</x>
-                        <y>398</y>
+                        <y>392</y>
                         <z>0</z>
                         <width>133</width>
                         <height>100</height>
@@ -409,7 +409,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>146</x>
-                        <y>445</y>
+                        <y>442</y>
                         <z>0</z>
                         <width>100</width>
                         <height>125</height>

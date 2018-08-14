@@ -27,6 +27,10 @@
                     <param id="0" name="Name">&quot;fases&quot;</param>
                     <param id="1" name="Parameter {n}"></param>
                 </action>
+                <action id="-9" name="Set value" sid="502924779448928" type="System">
+                    <param id="0" name="Variable">click</param>
+                    <param id="1" name="Value">0</param>
+                </action>
                 <action id="-9" name="Set value" sid="188079169784003" type="System">
                     <param id="0" name="Variable">n1</param>
                     <param id="1" name="Value">round(random(FaseMultiplicacao-10,FaseMultiplicacao))</param>
@@ -152,6 +156,11 @@
                 <condition id="3" name="On touched object" sid="862081193052478" type="Touch">
                     <param id="0" name="Object">alternativa1</param>
                 </condition>
+                <condition id="-14" name="Compare variable" sid="219641155550218" type="System">
+                    <param id="0" name="Variable">click</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
                 <condition id="-14" name="Compare variable" sid="947100208765893" type="System">
                     <param id="0" name="Variable">alternativa1</param>
                     <param id="1" name="Comparison">0</param>
@@ -191,6 +200,10 @@
                 <action id="-15" name="Set visible" sid="656853979068125" type="xalt3">
                     <param id="0" name="Visibility">0</param>
                 </action>
+                <action id="-9" name="Set value" sid="911290371152857" type="System">
+                    <param id="0" name="Variable">click</param>
+                    <param id="1" name="Value">1</param>
+                </action>
                 <action id="-16" name="Wait" sid="544084693004320" type="System">
                     <param id="0" name="Seconds">2</param>
                 </action>
@@ -221,6 +234,11 @@
             <conditions>
                 <condition id="3" name="On touched object" sid="463437599178763" type="Touch">
                     <param id="0" name="Object">alternativa2</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="956055020086634" type="System">
+                    <param id="0" name="Variable">click</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
                 </condition>
                 <condition id="-14" name="Compare variable" sid="188494130674718" type="System">
                     <param id="0" name="Variable">alternativa2</param>
@@ -261,6 +279,10 @@
                 <action id="-15" name="Set visible" sid="569516658461647" type="xalt3">
                     <param id="0" name="Visibility">0</param>
                 </action>
+                <action id="-9" name="Set value" sid="342540990908930" type="System">
+                    <param id="0" name="Variable">click</param>
+                    <param id="1" name="Value">1</param>
+                </action>
                 <action id="-16" name="Wait" sid="370855904077167" type="System">
                     <param id="0" name="Seconds">2</param>
                 </action>
@@ -291,6 +313,11 @@
             <conditions>
                 <condition id="3" name="On touched object" sid="265809767600864" type="Touch">
                     <param id="0" name="Object">alternativa3</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="803671423862617" type="System">
+                    <param id="0" name="Variable">click</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
                 </condition>
                 <condition id="-14" name="Compare variable" sid="894641394877809" type="System">
                     <param id="0" name="Variable">alternativa3</param>
@@ -330,6 +357,10 @@
                 </action>
                 <action id="-15" name="Set visible" sid="782897252585833" type="xalt3">
                     <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="606027266238031" type="System">
+                    <param id="0" name="Variable">click</param>
+                    <param id="1" name="Value">1</param>
                 </action>
                 <action id="-16" name="Wait" sid="949911956674110" type="System">
                     <param id="0" name="Seconds">2</param>
