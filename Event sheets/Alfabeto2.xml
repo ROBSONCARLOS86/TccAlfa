@@ -13,107 +13,111 @@
                 <condition id="-2" name="On start of layout" sid="772219856450986" type="System" />
             </conditions>
             <actions>
-                <action id="2" name="Set at X" sid="132462784996165" type="array_alfabeto">
+                <action id="2" name="Set at X" sid="955739747619358" type="array_alfabeto">
                     <param id="0" name="X">0</param>
                     <param id="1" name="Value">&quot;A&quot;</param>
                 </action>
-                <action id="2" name="Set at X" sid="275731178252139" type="array_alfabeto">
+                <action id="2" name="Set at X" sid="707609126771725" type="array_alfabeto">
                     <param id="0" name="X">1</param>
                     <param id="1" name="Value">&quot;B&quot;</param>
                 </action>
-                <action id="2" name="Set at X" sid="992207678892671" type="array_alfabeto">
+                <action id="2" name="Set at X" sid="114797695439483" type="array_alfabeto">
                     <param id="0" name="X">2</param>
                     <param id="1" name="Value">&quot;C&quot;</param>
                 </action>
-                <action id="2" name="Set at X" sid="779479451741412" type="array_alfabeto">
+                <action id="2" name="Set at X" sid="676540512691734" type="array_alfabeto">
                     <param id="0" name="X">3</param>
                     <param id="1" name="Value">&quot;D&quot;</param>
                 </action>
-                <action id="2" name="Set at X" sid="167939541798997" type="array_alfabeto">
+                <action id="2" name="Set at X" sid="760447248442503" type="array_alfabeto">
                     <param id="0" name="X">4</param>
                     <param id="1" name="Value">&quot;E&quot;</param>
                 </action>
-                <action id="2" name="Set at X" sid="377950855553323" type="array_alfabeto">
+                <action id="2" name="Set at X" sid="813032589109518" type="array_alfabeto">
                     <param id="0" name="X">5</param>
                     <param id="1" name="Value">&quot;F&quot;</param>
                 </action>
-                <action id="2" name="Set at X" sid="290483645054754" type="array_alfabeto">
+                <action id="2" name="Set at X" sid="530011853354445" type="array_alfabeto">
                     <param id="0" name="X">6</param>
                     <param id="1" name="Value">&quot;G&quot;</param>
                 </action>
-                <action id="2" name="Set at X" sid="794071666373553" type="array_alfabeto">
+                <action id="2" name="Set at X" sid="792186865753203" type="array_alfabeto">
                     <param id="0" name="X">7</param>
                     <param id="1" name="Value">&quot;H&quot;</param>
                 </action>
-                <action id="2" name="Set at X" sid="468602653170500" type="array_alfabeto">
+                <action id="2" name="Set at X" sid="322849477067923" type="array_alfabeto">
                     <param id="0" name="X">8</param>
                     <param id="1" name="Value">&quot;I&quot;</param>
                 </action>
-                <action id="2" name="Set at X" sid="489514001700389" type="array_alfabeto">
+                <action id="2" name="Set at X" sid="327069477966999" type="array_alfabeto">
                     <param id="0" name="X">9</param>
                     <param id="1" name="Value">&quot;J&quot;</param>
                 </action>
-                <action id="2" name="Set at X" sid="364240137680548" type="array_alfabeto">
+                <action id="2" name="Set at X" sid="176279748706576" type="array_alfabeto">
                     <param id="0" name="X">10</param>
                     <param id="1" name="Value">&quot;K&quot;</param>
                 </action>
-                <action id="2" name="Set at X" sid="203441831666626" type="array_alfabeto">
+                <action id="2" name="Set at X" sid="576328862848053" type="array_alfabeto">
                     <param id="0" name="X">11</param>
                     <param id="1" name="Value">&quot;L&quot;</param>
                 </action>
-                <action id="2" name="Set at X" sid="782043152088600" type="array_alfabeto">
+                <action id="2" name="Set at X" sid="677197695434243" type="array_alfabeto">
                     <param id="0" name="X">12</param>
                     <param id="1" name="Value">&quot;M&quot;</param>
                 </action>
-                <action id="2" name="Set at X" sid="272439420019859" type="array_alfabeto">
+                <action id="2" name="Set at X" sid="134075231562218" type="array_alfabeto">
                     <param id="0" name="X">13</param>
+                    <param id="1" name="Value">&quot;N&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="157444115055631" type="array_alfabeto">
+                    <param id="0" name="X">14</param>
                     <param id="1" name="Value">&quot;O&quot;</param>
                 </action>
-                <action id="2" name="Set at X" sid="170433141773005" type="array_alfabeto">
-                    <param id="0" name="X">14</param>
+                <action id="2" name="Set at X" sid="577154072412377" type="array_alfabeto">
+                    <param id="0" name="X">15</param>
                     <param id="1" name="Value">&quot;P&quot;</param>
                 </action>
-                <action id="2" name="Set at X" sid="375364658360749" type="array_alfabeto">
-                    <param id="0" name="X">15</param>
+                <action id="2" name="Set at X" sid="184712926065651" type="array_alfabeto">
+                    <param id="0" name="X">16</param>
                     <param id="1" name="Value">&quot;Q&quot;</param>
                 </action>
-                <action id="2" name="Set at X" sid="766075154381399" type="array_alfabeto">
-                    <param id="0" name="X">16</param>
+                <action id="2" name="Set at X" sid="690754636392608" type="array_alfabeto">
+                    <param id="0" name="X">17</param>
                     <param id="1" name="Value">&quot;R&quot;</param>
                 </action>
-                <action id="2" name="Set at X" sid="462735753781477" type="array_alfabeto">
-                    <param id="0" name="X">17</param>
+                <action id="2" name="Set at X" sid="119131402663563" type="array_alfabeto">
+                    <param id="0" name="X">18</param>
                     <param id="1" name="Value">&quot;S&quot;</param>
                 </action>
-                <action id="2" name="Set at X" sid="313330673409721" type="array_alfabeto">
-                    <param id="0" name="X">18</param>
+                <action id="2" name="Set at X" sid="735741658385590" type="array_alfabeto">
+                    <param id="0" name="X">19</param>
                     <param id="1" name="Value">&quot;T&quot;</param>
                 </action>
-                <action id="2" name="Set at X" sid="466430468671114" type="array_alfabeto">
-                    <param id="0" name="X">19</param>
+                <action id="2" name="Set at X" sid="670099112185497" type="array_alfabeto">
+                    <param id="0" name="X">20</param>
                     <param id="1" name="Value">&quot;U&quot;</param>
                 </action>
-                <action id="2" name="Set at X" sid="373159001339325" type="array_alfabeto">
-                    <param id="0" name="X">20</param>
+                <action id="2" name="Set at X" sid="209853331695392" type="array_alfabeto">
+                    <param id="0" name="X">21</param>
                     <param id="1" name="Value">&quot;V&quot;</param>
                 </action>
-                <action id="2" name="Set at X" sid="897229289410669" type="array_alfabeto">
-                    <param id="0" name="X">21</param>
+                <action id="2" name="Set at X" sid="683648879898799" type="array_alfabeto">
+                    <param id="0" name="X">22</param>
                     <param id="1" name="Value">&quot;W&quot;</param>
                 </action>
-                <action id="2" name="Set at X" sid="198709450274599" type="array_alfabeto">
-                    <param id="0" name="X">22</param>
+                <action id="2" name="Set at X" sid="743377037063714" type="array_alfabeto">
+                    <param id="0" name="X">23</param>
                     <param id="1" name="Value">&quot;X&quot;</param>
                 </action>
-                <action id="2" name="Set at X" sid="448287701369092" type="array_alfabeto">
-                    <param id="0" name="X">22</param>
+                <action id="2" name="Set at X" sid="187410311182343" type="array_alfabeto">
+                    <param id="0" name="X">24</param>
                     <param id="1" name="Value">&quot;Y&quot;</param>
                 </action>
-                <action id="2" name="Set at X" sid="911465063776116" type="array_alfabeto">
-                    <param id="0" name="X">23</param>
+                <action id="2" name="Set at X" sid="641002528972803" type="array_alfabeto">
+                    <param id="0" name="X">25</param>
                     <param id="1" name="Value">&quot;Z&quot;</param>
                 </action>
-                <action id="0" name="Call function" sid="521377702033801" type="Function">
+                <action id="0" name="Call function" sid="317243843281249" type="Function">
                     <param id="0" name="Name">&quot;start&quot;</param>
                     <param id="1" name="Parameter {n}"></param>
                 </action>
@@ -194,11 +198,11 @@
             <actions>
                 <action id="-9" name="Set value" sid="681765323325099" type="System">
                     <param id="0" name="Variable">vrx1</param>
-                    <param id="1" name="Value">round(random(0,11))</param>
+                    <param id="1" name="Value">round(random(0,12))</param>
                 </action>
                 <action id="-9" name="Set value" sid="780275857816520" type="System">
                     <param id="0" name="Variable">vrx2</param>
-                    <param id="1" name="Value">round(random(12,23))</param>
+                    <param id="1" name="Value">round(random(13,25))</param>
                 </action>
                 <action id="-9" name="Set value" sid="659790118107202" type="System">
                     <param id="0" name="Variable">vperguntaalf</param>
@@ -231,6 +235,12 @@
                             <param id="0" name="Variable">pontos2</param>
                             <param id="1" name="Value">pontos2+1</param>
                         </action>
+                        <action id="0" name="Play" sid="121071631940670" type="Audio">
+                            <param id="0" name="Audio file">42  Campainha, ideia curta</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
                         <action id="-15" name="Set visible" sid="642513404641458" type="sf3">
                             <param id="0" name="Visibility">1</param>
                         </action>
@@ -261,6 +271,12 @@
                         <condition id="-22" name="Else" sid="387235820222895" type="System" />
                     </conditions>
                     <actions>
+                        <action id="0" name="Play" sid="340663611022614" type="Audio">
+                            <param id="0" name="Audio file">30 Buzzer curto</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
                         <action id="-15" name="Set visible" sid="714897013292844" type="btndislike">
                             <param id="0" name="Visibility">1</param>
                         </action>

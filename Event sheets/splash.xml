@@ -3,7 +3,8 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>splash</name>
     <events>
-        <variable constant="0" name="texto" sid="741769398801318" static="0" type="text">                     WebDev  Molille</variable>
+        <variable constant="0" name="textoArtigo" sid="764145846015946" static="0" type="text">Educa Kids: A Gamificação do Ensino</variable>
+        <variable constant="0" name="texto" sid="741769398801318" static="0" type="text">                                  WebDev</variable>
         <event-block sid="877419215969948">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="712885444687050" type="System" />
@@ -23,6 +24,20 @@
                 <action behavior="Physics" id="23" name="Enable/disable collisions" sid="208906426663168" type="textCurso">
                     <param id="0" name="Object">textNome</param>
                     <param id="1" name="State">0</param>
+                </action>
+                <action behavior="Physics" id="23" name="Enable/disable collisions" sid="167209562661958" type="textArtigo">
+                    <param id="0" name="Object">logoAlfa</param>
+                    <param id="1" name="State">0</param>
+                </action>
+                <action behavior="Physics" id="23" name="Enable/disable collisions" sid="216078919518279" type="textArtigo">
+                    <param id="0" name="Object">textNome</param>
+                    <param id="1" name="State">0</param>
+                </action>
+                <action id="0" name="Play" sid="633419933172482" type="Audio">
+                    <param id="0" name="Audio file">Som Maquina de Escrever</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">-5</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
         </event-block>
@@ -51,6 +66,9 @@
                 <action id="-15" name="Set visible" sid="147096738101819" type="textCurso">
                     <param id="0" name="Visibility">1</param>
                 </action>
+                <action id="-15" name="Set visible" sid="549223619041187" type="textArtigo">
+                    <param id="0" name="Visibility">1</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="463739880167947">
@@ -62,6 +80,28 @@
             <actions>
                 <action id="0" name="Set text" sid="340316447420596" type="textCurso">
                     <param id="0" name="Text">left(texto,len(textCurso.Text)+1)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="845689764088571">
+            <conditions>
+                <condition id="2" name="Is in touch" sid="599174185435246" type="Touch" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="326209369743163" type="System">
+                    <param id="0" name="Layout">Menu</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="192119505102925">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="227994725094107" type="System">
+                    <param id="0" name="Interval (seconds)">0.2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="125398326483202" type="textArtigo">
+                    <param id="0" name="Text">left(textoArtigo,len(textCurso.Text)+1)</param>
                 </action>
             </actions>
         </event-block>

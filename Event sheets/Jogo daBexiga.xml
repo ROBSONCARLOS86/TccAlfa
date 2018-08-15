@@ -259,6 +259,12 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action id="0" name="Play" sid="718953136944599" type="Audio">
+                            <param id="0" name="Audio file">32 Whiff curto</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
                         <action id="-10" name="Add to" sid="932263980064022" type="System">
                             <param id="0" name="Variable">acerto</param>
                             <param id="1" name="Value">1</param>
@@ -270,6 +276,19 @@
                         <action id="-9" name="Set value" sid="195560610288285" type="System">
                             <param id="0" name="Variable">PontosGerais</param>
                             <param id="1" name="Value">PontosGerais+1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="668722870621719">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="457765429984538" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="917113689824285" type="Audio">
+                            <param id="0" name="Audio file">bolha</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -294,6 +313,12 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action id="0" name="Play" sid="643546652425868" type="Audio">
+                            <param id="0" name="Audio file">32 Whiff curto</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
                         <action id="-10" name="Add to" sid="328615765282175" type="System">
                             <param id="0" name="Variable">acerto</param>
                             <param id="1" name="Value">1</param>
@@ -305,6 +330,19 @@
                         <action id="-9" name="Set value" sid="546079801844640" type="System">
                             <param id="0" name="Variable">PontosGerais</param>
                             <param id="1" name="Value">PontosGerais+1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="902837661101519">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="935939750594577" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="334941677518240" type="Audio">
+                            <param id="0" name="Audio file">bolha</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -329,6 +367,12 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action id="0" name="Play" sid="850480629629401" type="Audio">
+                            <param id="0" name="Audio file">32 Whiff curto</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
                         <action id="-10" name="Add to" sid="981492980305411" type="System">
                             <param id="0" name="Variable">acerto</param>
                             <param id="1" name="Value">1</param>
@@ -340,6 +384,19 @@
                         <action id="-9" name="Set value" sid="775501247954732" type="System">
                             <param id="0" name="Variable">PontosGerais</param>
                             <param id="1" name="Value">PontosGerais+1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="898210258726075">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="452215175085219" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="724313608896930" type="Audio">
+                            <param id="0" name="Audio file">bolha</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -364,6 +421,12 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action id="0" name="Play" sid="892423270904711" type="Audio">
+                            <param id="0" name="Audio file">32 Whiff curto</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
                         <action id="-10" name="Add to" sid="908564458276295" type="System">
                             <param id="0" name="Variable">acerto</param>
                             <param id="1" name="Value">1</param>
@@ -375,6 +438,19 @@
                         <action id="-9" name="Set value" sid="101518183829137" type="System">
                             <param id="0" name="Variable">PontosGerais</param>
                             <param id="1" name="Value">PontosGerais+1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="811269122447009">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="427283427846743" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="483210106255083" type="Audio">
+                            <param id="0" name="Audio file">bolha</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                     </actions>
                 </event-block>

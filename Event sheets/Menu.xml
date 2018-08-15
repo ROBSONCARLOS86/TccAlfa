@@ -6,10 +6,10 @@
         <variable constant="0" name="PontosGerais" sid="885557796545323" static="0" type="number">0</variable>
         <event-block sid="973941706201433">
             <conditions>
-                <condition id="-25" name="On loader layout complete" sid="196878709865310" type="System" />
+                <condition id="-2" name="On start of layout" sid="196878709865310" type="System" />
             </conditions>
             <actions>
-                <action id="37" name="Unload all audio" sid="417154186209379" type="Audio" />
+                <action id="33" name="Stop all" sid="417154186209379" type="Audio" />
                 <action id="0" name="Play" sid="799279921091520" type="Audio">
                     <param id="0" name="Audio file">8-Bit-Puzzler</param>
                     <param id="2" name="Loop">1</param>

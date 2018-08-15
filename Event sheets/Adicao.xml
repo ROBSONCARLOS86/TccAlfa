@@ -187,6 +187,12 @@
                         <action id="-15" name="Set visible" sid="716161383926543" type="xalt3">
                             <param id="0" name="Visibility">1</param>
                         </action>
+                        <action id="0" name="Play" sid="434916088737743" type="Audio">
+                            <param id="0" name="Audio file">30 Buzzer curto</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="164913934163712">
@@ -209,6 +215,12 @@
                         <action id="-9" name="Set value" sid="951257860789545" type="System">
                             <param id="0" name="Variable">click</param>
                             <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="973758003622921" type="Audio">
+                            <param id="0" name="Audio file">42  Campainha, ideia curta</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                         <action id="-9" name="Set value" sid="919389746776518" type="System">
                             <param id="0" name="Variable">PontosGerais</param>
@@ -266,6 +278,12 @@
                         <action id="-15" name="Set visible" sid="521464505829468" type="xalt2">
                             <param id="0" name="Visibility">1</param>
                         </action>
+                        <action id="0" name="Play" sid="351294425229176" type="Audio">
+                            <param id="0" name="Audio file">30 Buzzer curto</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="331465344174074">
@@ -288,6 +306,12 @@
                         <action id="-9" name="Set value" sid="836614061239277" type="System">
                             <param id="0" name="Variable">click</param>
                             <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="348419346158474" type="Audio">
+                            <param id="0" name="Audio file">42  Campainha, ideia curta</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                         <action id="-9" name="Set value" sid="522083875019312" type="System">
                             <param id="0" name="Variable">PontosGerais</param>
@@ -345,6 +369,12 @@
                         <action id="-15" name="Set visible" sid="142744048571871" type="xalt1">
                             <param id="0" name="Visibility">1</param>
                         </action>
+                        <action id="0" name="Play" sid="127318584262780" type="Audio">
+                            <param id="0" name="Audio file">30 Buzzer curto</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="747576984988563">
@@ -367,6 +397,12 @@
                         <action id="-9" name="Set value" sid="670338971003374" type="System">
                             <param id="0" name="Variable">click</param>
                             <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="386702780161039" type="Audio">
+                            <param id="0" name="Audio file">42  Campainha, ideia curta</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                         <action id="-9" name="Set value" sid="612442506605033" type="System">
                             <param id="0" name="Variable">PontosGerais</param>

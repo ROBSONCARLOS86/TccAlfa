@@ -62,7 +62,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>391.128967285</x>
-                        <y>316.704162598</y>
+                        <y>373.704162598</y>
                         <z>0</z>
                         <width>173</width>
                         <height>157</height>
@@ -84,7 +84,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>394.128967285</x>
-                        <y>338.704162598</y>
+                        <y>395.704162598</y>
                         <z>0</z>
                         <width>125</width>
                         <height>138</height>
@@ -114,7 +114,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>584.128967285</x>
-                        <y>253.704177856</y>
+                        <y>310.704162598</y>
                         <z>0</z>
                         <width>140</width>
                         <height>140</height>
@@ -144,7 +144,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>331.128967285</x>
-                        <y>68.704177856</y>
+                        <y>125.704177856</y>
                         <z>0</z>
                         <width>165</width>
                         <height>140</height>
@@ -166,7 +166,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>393.128967285</x>
-                        <y>195.704177856</y>
+                        <y>252.704177856</y>
                         <z>0</z>
                         <width>50</width>
                         <height>50</height>
@@ -196,7 +196,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>93.128967285</x>
-                        <y>252.704177856</y>
+                        <y>309.704162598</y>
                         <z>0</z>
                         <width>140</width>
                         <height>140</height>
@@ -306,6 +306,33 @@
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Text14" uid="339">
+                    <properties>
+                        <text>Tarefa: Escolha a Letra do Ditado</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Segoe Script,-21,400,0</font>
+                        <color>255,255,255</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>187</x>
+                        <y>56</y>
+                        <z>0</z>
+                        <width>402</width>
+                        <height>46</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

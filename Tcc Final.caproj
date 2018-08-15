@@ -96,15 +96,15 @@
         </object-type>
         <object-type name="sf3" sid="941152109914032">
             <plugin id="Spritefont2" />
-            <texture original-source="E:\POS\ARTIG0\teste\alfabetoz.png" />
+            <texture original-source="E:\POS\ARTIG0\TCC\images\letrapergunta.png" />
         </object-type>
         <object-type name="sf2" sid="416531792888412">
             <plugin id="Spritefont2" />
-            <texture original-source="E:\POS\ARTIG0\teste\alfabetoz.png" />
+            <texture original-source="E:\POS\ARTIG0\TCC\images\letrapergunta.png" />
         </object-type>
         <object-type name="sf4" sid="250820299637089">
             <plugin id="Spritefont2" />
-            <texture original-source="E:\POS\ARTIG0\teste\alfabetoz.png" />
+            <texture original-source="E:\POS\ARTIG0\TCC\images\letrapergunta.png" />
         </object-type>
         <object-type name="Pontos" sid="601587130146209">
             <plugin id="Text" />
@@ -239,7 +239,7 @@
         </object-type>
         <object-type name="letraPergunta" sid="904146337575578">
             <plugin id="Spritefont2" />
-            <texture original-source="E:\POS\ARTIG0\teste\img\alfabeto2.jpg" />
+            <texture original-source="E:\POS\ARTIG0\TCC\images\letrapergunta.png" />
         </object-type>
         <object-type name="ponto" sid="887027277845454">
             <plugin id="Text" />
@@ -549,7 +549,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="239383095059054" speed="5">
-                    <frame duration="1" hotspotX="0.50193" hotspotY="0.502564" original-source="E:\POS\construct\Arquivos\PlataformaArquivos\background2.png" />
+                    <frame duration="1" hotspotX="0.501953" hotspotY="0.503906" original-source="E:\POS\ARTIG0\TCC\images\background splash.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -592,7 +592,7 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="12" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="838797917455095" speed="5">
+                <animation framecount="1" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="838797917455095" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\POS\construct\Arquivos\PlataformaArquivos\personagem\default\Idle_000.png">
                         <collision-poly>
                             <point x="0.279297" y="0.279297" />
@@ -602,138 +602,6 @@
                             <point x="0.595703" y="0.595703" />
                             <point x="0.5" y="0.974609" />
                             <point x="0.402344" y="0.597656" />
-                            <point x="0.261719" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\POS\construct\Arquivos\PlataformaArquivos\personagem\default\Idle_001.png">
-                        <collision-poly>
-                            <point x="0.279297" y="0.279297" />
-                            <point x="0.5" y="0.195313" />
-                            <point x="0.667969" y="0.332031" />
-                            <point x="0.654297" y="0.5" />
-                            <point x="0.595703" y="0.595703" />
-                            <point x="0.5" y="0.974609" />
-                            <point x="0.404297" y="0.595703" />
-                            <point x="0.261719" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\POS\construct\Arquivos\PlataformaArquivos\personagem\default\Idle_002.png">
-                        <collision-poly>
-                            <point x="0.28125" y="0.28125" />
-                            <point x="0.5" y="0.193359" />
-                            <point x="0.669922" y="0.330078" />
-                            <point x="0.654297" y="0.5" />
-                            <point x="0.59375" y="0.59375" />
-                            <point x="0.5" y="0.974609" />
-                            <point x="0.40625" y="0.59375" />
-                            <point x="0.263672" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\POS\construct\Arquivos\PlataformaArquivos\personagem\default\Idle_003.png">
-                        <collision-poly>
-                            <point x="0.28125" y="0.28125" />
-                            <point x="0.5" y="0.191406" />
-                            <point x="0.669922" y="0.330078" />
-                            <point x="0.654297" y="0.5" />
-                            <point x="0.59375" y="0.59375" />
-                            <point x="0.5" y="0.974609" />
-                            <point x="0.40625" y="0.59375" />
-                            <point x="0.263672" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\POS\construct\Arquivos\PlataformaArquivos\personagem\default\Idle_004.png">
-                        <collision-poly>
-                            <point x="0.283203" y="0.283203" />
-                            <point x="0.5" y="0.189453" />
-                            <point x="0.669922" y="0.330078" />
-                            <point x="0.654297" y="0.5" />
-                            <point x="0.59375" y="0.59375" />
-                            <point x="0.5" y="0.974609" />
-                            <point x="0.408203" y="0.591797" />
-                            <point x="0.265625" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\POS\construct\Arquivos\PlataformaArquivos\personagem\default\Idle_005.png">
-                        <collision-poly>
-                            <point x="0.283203" y="0.283203" />
-                            <point x="0.5" y="0.1875" />
-                            <point x="0.669922" y="0.330078" />
-                            <point x="0.654297" y="0.5" />
-                            <point x="0.591797" y="0.591797" />
-                            <point x="0.5" y="0.974609" />
-                            <point x="0.410156" y="0.589844" />
-                            <point x="0.267578" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\POS\construct\Arquivos\PlataformaArquivos\personagem\default\Idle_006.png">
-                        <collision-poly>
-                            <point x="0.283203" y="0.283203" />
-                            <point x="0.5" y="0.1875" />
-                            <point x="0.669922" y="0.330078" />
-                            <point x="0.654297" y="0.5" />
-                            <point x="0.591797" y="0.591797" />
-                            <point x="0.5" y="0.974609" />
-                            <point x="0.410156" y="0.589844" />
-                            <point x="0.267578" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\POS\construct\Arquivos\PlataformaArquivos\personagem\default\Idle_007.png">
-                        <collision-poly>
-                            <point x="0.285156" y="0.285156" />
-                            <point x="0.5" y="0.1875" />
-                            <point x="0.671875" y="0.328125" />
-                            <point x="0.654297" y="0.5" />
-                            <point x="0.591797" y="0.591797" />
-                            <point x="0.5" y="0.974609" />
-                            <point x="0.410156" y="0.589844" />
-                            <point x="0.267578" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\POS\construct\Arquivos\PlataformaArquivos\personagem\default\Idle_008.png">
-                        <collision-poly>
-                            <point x="0.283203" y="0.283203" />
-                            <point x="0.5" y="0.189453" />
-                            <point x="0.669922" y="0.330078" />
-                            <point x="0.654297" y="0.5" />
-                            <point x="0.59375" y="0.59375" />
-                            <point x="0.5" y="0.974609" />
-                            <point x="0.408203" y="0.591797" />
-                            <point x="0.265625" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\POS\construct\Arquivos\PlataformaArquivos\personagem\default\Idle_009.png">
-                        <collision-poly>
-                            <point x="0.283203" y="0.283203" />
-                            <point x="0.5" y="0.191406" />
-                            <point x="0.669922" y="0.330078" />
-                            <point x="0.654297" y="0.5" />
-                            <point x="0.59375" y="0.59375" />
-                            <point x="0.5" y="0.974609" />
-                            <point x="0.40625" y="0.59375" />
-                            <point x="0.265625" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\POS\construct\Arquivos\PlataformaArquivos\personagem\default\Idle_010.png">
-                        <collision-poly>
-                            <point x="0.28125" y="0.28125" />
-                            <point x="0.5" y="0.193359" />
-                            <point x="0.669922" y="0.330078" />
-                            <point x="0.654297" y="0.5" />
-                            <point x="0.595703" y="0.595703" />
-                            <point x="0.5" y="0.974609" />
-                            <point x="0.40625" y="0.59375" />
-                            <point x="0.263672" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\POS\construct\Arquivos\PlataformaArquivos\personagem\default\Idle_011.png">
-                        <collision-poly>
-                            <point x="0.279297" y="0.279297" />
-                            <point x="0.5" y="0.195313" />
-                            <point x="0.667969" y="0.332031" />
-                            <point x="0.654297" y="0.5" />
-                            <point x="0.595703" y="0.595703" />
-                            <point x="0.5" y="0.974609" />
-                            <point x="0.404297" y="0.595703" />
                             <point x="0.261719" y="0.5" />
                         </collision-poly>
                     </frame>
@@ -975,16 +843,16 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="736529676797921" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\POS\construct\TrabalhoAlfa\Arquivos\PlataformaArquivos\objetos\Btns\btn_right.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.01" original-source="E:\POS\construct\TrabalhoAlfa\Arquivos\PlataformaArquivos\objetos\Btns\btn_right.png">
                         <collision-poly>
-                            <point x="0.15" y="0.15" />
+                            <point x="0.15" y="0" />
                             <point x="0.5" y="0" />
-                            <point x="0.85" y="0.15" />
-                            <point x="1" y="0.5" />
-                            <point x="0.85" y="0.85" />
+                            <point x="0.85" y="0" />
+                            <point x="1" y="0.00990099" />
+                            <point x="0.85" y="0.70297" />
                             <point x="0.5" y="1" />
-                            <point x="0.15" y="0.85" />
-                            <point x="0" y="0.5" />
+                            <point x="0.15" y="0.70297" />
+                            <point x="0" y="0.00990099" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -1187,6 +1055,25 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="textArtigo" sid="702552443783243">
+            <plugin id="Text" />
+            <behaviors>
+                <behavior-type name="Physics" sid="655251355475706">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="Text14" sid="389611555385606">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Sprite4" sid="942716193795450">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="707505183975924" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -1298,6 +1185,12 @@
         <file name="Puzzle-Dreams-3.ogg" />
         <file name="raining bits lowfi.ogg" />
         <file name="15Axel Foley.ogg" />
+        <file name="Som Maquina de Escrever.ogg" />
+        <file name="30 Buzzer curto.ogg" />
+        <file name="42  Campainha, ideia curta.ogg" />
+        <file name="7 nao.ogg" />
+        <file name="bolha.ogg" />
+        <file name="32 Whiff curto.ogg" />
     </sounds-folder>
     <music-folder />
     <files-folder>

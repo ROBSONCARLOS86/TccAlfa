@@ -220,6 +220,12 @@
                     <param id="0" name="Variable">PontosSubtracao</param>
                     <param id="1" name="Value">PontosSubtracao+1</param>
                 </action>
+                <action id="0" name="Play" sid="873788214509632" type="Audio">
+                    <param id="0" name="Audio file">42  Campainha, ideia curta</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
                 <action id="0" name="Set text" sid="331086007114595" type="resp1">
                     <param id="0" name="Text">resposta</param>
                 </action>
@@ -272,6 +278,12 @@
                 <action id="-15" name="Set visible" sid="197430319134549" type="xalt1">
                     <param id="0" name="Visibility">1</param>
                 </action>
+                <action id="0" name="Play" sid="144419791727880" type="Audio">
+                    <param id="0" name="Audio file">30 Buzzer curto</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="157390382473727">
@@ -298,6 +310,12 @@
                 <action id="-9" name="Set value" sid="379386709835481" type="System">
                     <param id="0" name="Variable">PontosSubtracao</param>
                     <param id="1" name="Value">PontosSubtracao+1</param>
+                </action>
+                <action id="0" name="Play" sid="597338704725410" type="Audio">
+                    <param id="0" name="Audio file">42  Campainha, ideia curta</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
                 <action id="0" name="Set text" sid="909704691665242" type="resp1">
                     <param id="0" name="Text">resposta</param>
@@ -351,6 +369,12 @@
                 <action id="-15" name="Set visible" sid="445204985214388" type="xalt2">
                     <param id="0" name="Visibility">1</param>
                 </action>
+                <action id="0" name="Play" sid="620772415323945" type="Audio">
+                    <param id="0" name="Audio file">30 Buzzer curto</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="786539313444769">
@@ -377,6 +401,12 @@
                 <action id="-9" name="Set value" sid="290151022679156" type="System">
                     <param id="0" name="Variable">PontosSubtracao</param>
                     <param id="1" name="Value">PontosSubtracao+1</param>
+                </action>
+                <action id="0" name="Play" sid="302676481083218" type="Audio">
+                    <param id="0" name="Audio file">42  Campainha, ideia curta</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
                 <action id="0" name="Set text" sid="507522264856398" type="resp1">
                     <param id="0" name="Text">resposta</param>
@@ -429,6 +459,12 @@
             <actions>
                 <action id="-15" name="Set visible" sid="615429638635240" type="xalt3">
                     <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="0" name="Play" sid="174884469271696" type="Audio">
+                    <param id="0" name="Audio file">30 Buzzer curto</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
         </event-block>

@@ -66,52 +66,56 @@
                     <param id="0" name="X">12</param>
                     <param id="1" name="Value">&quot;M&quot;</param>
                 </action>
-                <action id="2" name="Set at X" sid="368036429255147" type="array_alfabeto">
+                <action id="2" name="Set at X" sid="715297347018651" type="array_alfabeto">
                     <param id="0" name="X">13</param>
+                    <param id="1" name="Value">&quot;N&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="368036429255147" type="array_alfabeto">
+                    <param id="0" name="X">14</param>
                     <param id="1" name="Value">&quot;O&quot;</param>
                 </action>
                 <action id="2" name="Set at X" sid="766264760483459" type="array_alfabeto">
-                    <param id="0" name="X">14</param>
+                    <param id="0" name="X">15</param>
                     <param id="1" name="Value">&quot;P&quot;</param>
                 </action>
                 <action id="2" name="Set at X" sid="159082025175881" type="array_alfabeto">
-                    <param id="0" name="X">15</param>
+                    <param id="0" name="X">16</param>
                     <param id="1" name="Value">&quot;Q&quot;</param>
                 </action>
                 <action id="2" name="Set at X" sid="600002138093979" type="array_alfabeto">
-                    <param id="0" name="X">16</param>
+                    <param id="0" name="X">17</param>
                     <param id="1" name="Value">&quot;R&quot;</param>
                 </action>
                 <action id="2" name="Set at X" sid="242816466949563" type="array_alfabeto">
-                    <param id="0" name="X">17</param>
+                    <param id="0" name="X">18</param>
                     <param id="1" name="Value">&quot;S&quot;</param>
                 </action>
                 <action id="2" name="Set at X" sid="870432845288538" type="array_alfabeto">
-                    <param id="0" name="X">18</param>
+                    <param id="0" name="X">19</param>
                     <param id="1" name="Value">&quot;T&quot;</param>
                 </action>
                 <action id="2" name="Set at X" sid="548517576207126" type="array_alfabeto">
-                    <param id="0" name="X">19</param>
+                    <param id="0" name="X">20</param>
                     <param id="1" name="Value">&quot;U&quot;</param>
                 </action>
                 <action id="2" name="Set at X" sid="523434555867005" type="array_alfabeto">
-                    <param id="0" name="X">20</param>
+                    <param id="0" name="X">21</param>
                     <param id="1" name="Value">&quot;V&quot;</param>
                 </action>
                 <action id="2" name="Set at X" sid="423093203737451" type="array_alfabeto">
-                    <param id="0" name="X">21</param>
+                    <param id="0" name="X">22</param>
                     <param id="1" name="Value">&quot;W&quot;</param>
                 </action>
                 <action id="2" name="Set at X" sid="291471812219979" type="array_alfabeto">
-                    <param id="0" name="X">22</param>
+                    <param id="0" name="X">23</param>
                     <param id="1" name="Value">&quot;X&quot;</param>
                 </action>
                 <action id="2" name="Set at X" sid="180913547301821" type="array_alfabeto">
-                    <param id="0" name="X">22</param>
+                    <param id="0" name="X">24</param>
                     <param id="1" name="Value">&quot;Y&quot;</param>
                 </action>
                 <action id="2" name="Set at X" sid="685682240097579" type="array_alfabeto">
-                    <param id="0" name="X">23</param>
+                    <param id="0" name="X">25</param>
                     <param id="1" name="Value">&quot;Z&quot;</param>
                 </action>
                 <action id="0" name="Call function" sid="901424242313694" type="Function">
@@ -188,11 +192,11 @@
                 </action>
                 <action id="-9" name="Set value" sid="392351599308428" type="System">
                     <param id="0" name="Variable">vrx1</param>
-                    <param id="1" name="Value">round(random(0,11))</param>
+                    <param id="1" name="Value">round(random(0,12))</param>
                 </action>
                 <action id="-9" name="Set value" sid="786312673571502" type="System">
                     <param id="0" name="Variable">vrx2</param>
-                    <param id="1" name="Value">round(random(12,23))</param>
+                    <param id="1" name="Value">round(random(13,25))</param>
                 </action>
                 <action id="-9" name="Set value" sid="405592776048178" type="System">
                     <param id="0" name="Variable">vperguntaalf</param>
@@ -253,6 +257,12 @@
                             <param id="0" name="Variable">pontos</param>
                             <param id="1" name="Value">pontos+1</param>
                         </action>
+                        <action id="0" name="Play" sid="302849108229103" type="Audio">
+                            <param id="0" name="Audio file">42  Campainha, ideia curta</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
                         <action id="-15" name="Set visible" sid="627092230801942" type="btnlike">
                             <param id="0" name="Visibility">1</param>
                         </action>
@@ -280,6 +290,12 @@
                         <condition id="-22" name="Else" sid="839051263317381" type="System" />
                     </conditions>
                     <actions>
+                        <action id="0" name="Play" sid="416835964503834" type="Audio">
+                            <param id="0" name="Audio file">30 Buzzer curto</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
                         <action id="-15" name="Set visible" sid="457496978825072" type="btndislike">
                             <param id="0" name="Visibility">1</param>
                         </action>
