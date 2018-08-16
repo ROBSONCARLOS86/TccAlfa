@@ -10,7 +10,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1" order="0">Alfabeto2</layout>
+        <layout order="0">inicio</layout>
+        <layout order="1">fase1</layout>
+        <layout active="1" order="2">fase2</layout>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -22,17 +24,17 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <folders-expanded>
         <folder expanded="0" path="object-folder/" />
         <folder expanded="1" path="layout-folder/" />
-        <folder expanded="1" path="layout-folder/Alfabeto/" />
+        <folder expanded="0" path="layout-folder/Alfabeto/" />
         <folder expanded="0" path="layout-folder/Calculos/" />
         <folder expanded="0" path="layout-folder/JogoBexiga/" />
         <folder expanded="0" path="layout-folder/Menu/" />
-        <folder expanded="0" path="layout-folder/Jogo/" />
+        <folder expanded="1" path="layout-folder/Jogo/" />
         <folder expanded="1" path="event-folder/" />
         <folder expanded="0" path="event-folder/Alfabeto/" />
         <folder expanded="0" path="event-folder/Calculos/" />
         <folder expanded="0" path="event-folder/JogoBexiga/" />
         <folder expanded="0" path="event-folder/Jogo/" />
-        <folder expanded="1" path="event-folder/Menu/" />
+        <folder expanded="0" path="event-folder/Menu/" />
         <folder expanded="0" path="file-folder/" />
         <folder expanded="0" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />

@@ -220,6 +220,10 @@
                     <param id="0" name="Variable">PontosSubtracao</param>
                     <param id="1" name="Value">PontosSubtracao+1</param>
                 </action>
+                <action id="-9" name="Set value" sid="613169293693341" type="System">
+                    <param id="0" name="Variable">palpites</param>
+                    <param id="1" name="Value">palpites+1</param>
+                </action>
                 <action id="0" name="Play" sid="873788214509632" type="Audio">
                     <param id="0" name="Audio file">42  Campainha, ideia curta</param>
                     <param id="2" name="Loop">0</param>
@@ -284,6 +288,10 @@
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
+                <action id="-9" name="Set value" sid="773233723556749" type="System">
+                    <param id="0" name="Variable">palpites</param>
+                    <param id="1" name="Value">palpites+1</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="157390382473727">
@@ -310,6 +318,10 @@
                 <action id="-9" name="Set value" sid="379386709835481" type="System">
                     <param id="0" name="Variable">PontosSubtracao</param>
                     <param id="1" name="Value">PontosSubtracao+1</param>
+                </action>
+                <action id="-9" name="Set value" sid="323501941954397" type="System">
+                    <param id="0" name="Variable">palpites</param>
+                    <param id="1" name="Value">palpites+1</param>
                 </action>
                 <action id="0" name="Play" sid="597338704725410" type="Audio">
                     <param id="0" name="Audio file">42  Campainha, ideia curta</param>
@@ -375,6 +387,10 @@
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
+                <action id="-9" name="Set value" sid="465693601294606" type="System">
+                    <param id="0" name="Variable">palpites</param>
+                    <param id="1" name="Value">palpites+1</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="786539313444769">
@@ -401,6 +417,10 @@
                 <action id="-9" name="Set value" sid="290151022679156" type="System">
                     <param id="0" name="Variable">PontosSubtracao</param>
                     <param id="1" name="Value">PontosSubtracao+1</param>
+                </action>
+                <action id="-9" name="Set value" sid="262567080013010" type="System">
+                    <param id="0" name="Variable">palpites</param>
+                    <param id="1" name="Value">palpites+1</param>
                 </action>
                 <action id="0" name="Play" sid="302676481083218" type="Audio">
                     <param id="0" name="Audio file">42  Campainha, ideia curta</param>
@@ -465,6 +485,10 @@
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-9" name="Set value" sid="875542023919101" type="System">
+                    <param id="0" name="Variable">palpites</param>
+                    <param id="1" name="Value">palpites+1</param>
                 </action>
             </actions>
         </event-block>

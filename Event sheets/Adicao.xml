@@ -193,6 +193,10 @@
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
+                        <action id="-9" name="Set value" sid="401519759175382" type="System">
+                            <param id="0" name="Variable">palpites</param>
+                            <param id="1" name="Value">palpites+1</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="164913934163712">
@@ -229,6 +233,10 @@
                         <action id="-9" name="Set value" sid="169641641682701" type="System">
                             <param id="0" name="Variable">PontosAdicao</param>
                             <param id="1" name="Value">PontosAdicao+1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="988257934541968" type="System">
+                            <param id="0" name="Variable">palpites</param>
+                            <param id="1" name="Value">palpites+1</param>
                         </action>
                         <action id="0" name="Set text" sid="450325237264540" type="resp1">
                             <param id="0" name="Text">resposta</param>
@@ -284,6 +292,10 @@
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
+                        <action id="-9" name="Set value" sid="235518245682716" type="System">
+                            <param id="0" name="Variable">palpites</param>
+                            <param id="1" name="Value">palpites+1</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="331465344174074">
@@ -320,6 +332,10 @@
                         <action id="-9" name="Set value" sid="511851687443578" type="System">
                             <param id="0" name="Variable">PontosAdicao</param>
                             <param id="1" name="Value">PontosAdicao+1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="547706312548633" type="System">
+                            <param id="0" name="Variable">palpites</param>
+                            <param id="1" name="Value">palpites+1</param>
                         </action>
                         <action id="0" name="Set text" sid="390627672802803" type="resp1">
                             <param id="0" name="Text">resposta</param>
@@ -375,6 +391,10 @@
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
+                        <action id="-9" name="Set value" sid="151100202306169" type="System">
+                            <param id="0" name="Variable">palpites</param>
+                            <param id="1" name="Value">palpites+1</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="747576984988563">
@@ -411,6 +431,10 @@
                         <action id="-9" name="Set value" sid="490715721673315" type="System">
                             <param id="0" name="Variable">PontosAdicao</param>
                             <param id="1" name="Value">PontosAdicao+1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="818470624278669" type="System">
+                            <param id="0" name="Variable">palpites</param>
+                            <param id="1" name="Value">palpites+1</param>
                         </action>
                         <action id="0" name="Set text" sid="231825475524521" type="resp1">
                             <param id="0" name="Text">resposta</param>

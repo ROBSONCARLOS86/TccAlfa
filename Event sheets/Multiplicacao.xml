@@ -176,6 +176,10 @@
                     <param id="0" name="Variable">PontosMultiplicacao</param>
                     <param id="1" name="Value">PontosMultiplicacao+1</param>
                 </action>
+                <action id="-9" name="Set value" sid="334659741247375" type="System">
+                    <param id="0" name="Variable">palpites</param>
+                    <param id="1" name="Value">palpites+1</param>
+                </action>
                 <action id="0" name="Play" sid="840190751448291" type="Audio">
                     <param id="0" name="Audio file">42  Campainha, ideia curta</param>
                     <param id="2" name="Loop">0</param>
@@ -240,6 +244,10 @@
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
+                <action id="-9" name="Set value" sid="543987448777946" type="System">
+                    <param id="0" name="Variable">palpites</param>
+                    <param id="1" name="Value">palpites+1</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="452579532043077">
@@ -266,6 +274,10 @@
                 <action id="-9" name="Set value" sid="906631252229418" type="System">
                     <param id="0" name="Variable">PontosMultiplicacao</param>
                     <param id="1" name="Value">PontosMultiplicacao+1</param>
+                </action>
+                <action id="-9" name="Set value" sid="861417907539764" type="System">
+                    <param id="0" name="Variable">palpites</param>
+                    <param id="1" name="Value">palpites+1</param>
                 </action>
                 <action id="0" name="Play" sid="902711085316808" type="Audio">
                     <param id="0" name="Audio file">42  Campainha, ideia curta</param>
@@ -331,6 +343,10 @@
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
+                <action id="-9" name="Set value" sid="278653178892651" type="System">
+                    <param id="0" name="Variable">palpites</param>
+                    <param id="1" name="Value">palpites+1</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="623633772721374">
@@ -353,6 +369,10 @@
                 <action id="-9" name="Set value" sid="715707616487337" type="System">
                     <param id="0" name="Variable">PontosGerais</param>
                     <param id="1" name="Value">PontosGerais+1</param>
+                </action>
+                <action id="-9" name="Set value" sid="754249119911765" type="System">
+                    <param id="0" name="Variable">palpites</param>
+                    <param id="1" name="Value">palpites+1</param>
                 </action>
                 <action id="-9" name="Set value" sid="841413479630921" type="System">
                     <param id="0" name="Variable">PontosMultiplicacao</param>
@@ -421,6 +441,10 @@
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-9" name="Set value" sid="745375390794814" type="System">
+                    <param id="0" name="Variable">palpites</param>
+                    <param id="1" name="Value">palpites+1</param>
                 </action>
             </actions>
         </event-block>

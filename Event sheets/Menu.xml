@@ -3,6 +3,8 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Menu</name>
     <events>
+        <variable constant="0" name="palpites" sid="813100392807363" static="0" type="number">0</variable>
+        <variable constant="0" name="porcentagemgeral" sid="481660278659657" static="0" type="number">0</variable>
         <variable constant="0" name="PontosGerais" sid="885557796545323" static="0" type="number">0</variable>
         <event-block sid="973941706201433">
             <conditions>
@@ -15,6 +17,9 @@
                     <param id="2" name="Loop">1</param>
                     <param id="3" name="Volume">-5</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="968880245148660" type="porcentagemGerais">
+                    <param id="0" name="Text">porcentagemgeral</param>
                 </action>
             </actions>
         </event-block>
@@ -97,10 +102,19 @@
         <event-block sid="962892504369944">
             <conditions>
                 <condition id="-1" name="Every tick" sid="309055606061787" type="System" />
+                <condition id="-14" name="Compare variable" sid="231598863391692" type="System">
+                    <param id="0" name="Variable">PontosGerais</param>
+                    <param id="1" name="Comparison">4</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
             </conditions>
             <actions>
                 <action id="0" name="Set text" sid="709040108236668" type="pontosGerais">
                     <param id="0" name="Text">PontosGerais</param>
+                </action>
+                <action id="-9" name="Set value" sid="981352862797460" type="System">
+                    <param id="0" name="Variable">porcentagemgeral</param>
+                    <param id="1" name="Value">PontosGerais/palpites*100</param>
                 </action>
             </actions>
         </event-block>

@@ -1074,6 +1074,15 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Text15" sid="531944392896731">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="porcentagemGerais" sid="936026815792221">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="pontosGerais2" sid="735407145638097">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
