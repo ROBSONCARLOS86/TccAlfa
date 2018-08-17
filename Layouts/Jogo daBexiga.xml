@@ -164,7 +164,7 @@
                                 <immovable>No</immovable>
                                 <collision-mask>Use collision polygon</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
-                                <density>0.5</density>
+                                <density>0.2</density>
                                 <friction>3</friction>
                                 <elasticity>0.2</elasticity>
                                 <linear-damping>0</linear-damping>

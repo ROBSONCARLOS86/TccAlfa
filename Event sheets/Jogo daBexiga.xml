@@ -526,5 +526,75 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="273748169779869">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="670942472241831" type="System">
+                    <param id="0" name="Variable">pontosBexiga</param>
+                    <param id="1" name="Comparison">4</param>
+                    <param id="2" name="Value">5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Physics" id="12" name="Set world gravity" sid="357781474785180" type="bexiga1">
+                    <param id="0" name="Gravity">2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="633467196146564">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="276738261078993" type="System">
+                    <param id="0" name="Variable">pontosBexiga</param>
+                    <param id="1" name="Comparison">4</param>
+                    <param id="2" name="Value">10</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Physics" id="12" name="Set world gravity" sid="275067403724018" type="bexiga1">
+                    <param id="0" name="Gravity">2.5</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="746199168914738">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="612169223624054" type="System">
+                    <param id="0" name="Variable">pontosBexiga</param>
+                    <param id="1" name="Comparison">4</param>
+                    <param id="2" name="Value">15</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Physics" id="12" name="Set world gravity" sid="983346030422850" type="bexiga1">
+                    <param id="0" name="Gravity">3</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="143677553484110">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="625383466791825" type="System">
+                    <param id="0" name="Variable">pontosBexiga</param>
+                    <param id="1" name="Comparison">4</param>
+                    <param id="2" name="Value">20</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Physics" id="12" name="Set world gravity" sid="881844536894994" type="bexiga1">
+                    <param id="0" name="Gravity">3.5</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="565422791230895">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="369245657649693" type="System">
+                    <param id="0" name="Variable">pontosBexiga</param>
+                    <param id="1" name="Comparison">4</param>
+                    <param id="2" name="Value">30</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Physics" id="12" name="Set world gravity" sid="917872959385607" type="bexiga1">
+                    <param id="0" name="Gravity">4</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
